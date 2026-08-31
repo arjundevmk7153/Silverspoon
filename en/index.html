@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Silver Spoon — Cakes &amp; Bakes in Berlin · Prices from €90</title>
+<meta name="description" content="Silver Spoon Berlin: freshly baked cakes made to order. Birthday cakes from €90, double-tier customised cakes €200, brownies €3 a piece. Order through WhatsApp or email.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://silverspoonberlin.de/en/">
+<link rel="alternate" hreflang="de" href="https://silverspoonberlin.de/">
+<link rel="alternate" hreflang="en" href="https://silverspoonberlin.de/en/">
+<link rel="alternate" hreflang="x-default" href="https://silverspoonberlin.de/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Silver Spoon">
+<meta property="og:title" content="Silver Spoon — Cakes &amp; Bakes in Berlin · Prices from €90">
+<meta property="og:description" content="Freshly baked cakes made to order in Berlin. Birthday cakes from €90, double-tier customised cakes €200, brownies €3 a piece.">
+<meta property="og:url" content="https://silverspoonberlin.de/en/">
+<meta property="og:image" content="https://silverspoonberlin.de/pics/IMG_4438.PNG">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":["Bakery","LocalBusiness"],"@id":"https://silverspoonberlin.de/#bakery","name":"Silver Spoon","description":"Home bakery in Berlin: freshly baked cakes, brownies and cupcakes made to order by chef Neethu.","url":"https://silverspoonberlin.de/","telephone":"+49 152 09613663","email":"order@silverspoonberlin.de","priceRange":"€€","currenciesAccepted":"EUR","founder":{"@type":"Person","name":"Neethu","jobTitle":"Pastry chef and founder"},"address":{"@type":"PostalAddress","addressLocality":"Berlin","addressCountry":"DE"},"areaServed":{"@type":"City","name":"Berlin"},"image":"https://silverspoonberlin.de/pics/IMG_4438.PNG"},
+{"@type":"Product","name":"Birthday cake","description":"Freshly baked birthday cake in your choice of flavour, decorated to your theme.","brand":{"@id":"https://silverspoonberlin.de/#bakery"},"offers":{"@type":"Offer","price":"90","priceCurrency":"EUR","priceSpecification":{"@type":"PriceSpecification","minPrice":"90","priceCurrency":"EUR"},"availability":"https://schema.org/InStock"}},
+{"@type":"Product","name":"Double-tier customised cake","description":"Big double-tier celebration cake, fully customised. The only cake we deliver.","brand":{"@id":"https://silverspoonberlin.de/#bakery"},"offers":{"@type":"Offer","price":"200","priceCurrency":"EUR","availability":"https://schema.org/InStock"}},
+{"@type":"Product","name":"Brownie","description":"Freshly baked brownie, per piece.","brand":{"@id":"https://silverspoonberlin.de/#bakery"},"offers":{"@type":"Offer","price":"3","priceCurrency":"EUR","availability":"https://schema.org/InStock"}}]}
+</script>
+<style>
+  :root {
+    --bg: #f6f3f0;
+    --surface: #fffdfb;
+    --surface-2: #f0ebe5;
+    --text: #201f1d;
+    --muted: #6d675f;
+    --accent: #b68235;
+    --accent-dark: #7d5411;
+    --accent-soft: #fff3e4;
+    --divider: rgba(32, 31, 29, 0.14);
+    --wa: #35573f;
+    --wa-dark: #27432f;
+    --radius: 16px;
+    --font-heading: "Cormorant Garamond", Georgia, serif;
+    --font-body: "Lora", Georgia, serif;
+    --shadow: 0 10px 30px rgba(72, 52, 21, 0.10);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: var(--font-body); font-size: 16.5px; line-height: 1.65;
+    -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: var(--accent-dark); }
+  h1, h2, h3 { font-family: var(--font-heading); font-weight: 600; line-height: 1.12; margin: 0; }
+  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 40px); }
+  section { padding: clamp(44px, 6.5vw, 84px) 0; }
+
+  .kicker {
+    display: inline-block; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--accent-dark); margin-bottom: 12px;
+  }
+  .section-title { font-size: clamp(30px, 4.4vw, 46px); }
+  .section-sub { color: var(--muted); max-width: 680px; margin: 14px 0 0; }
+
+  /* Buttons */
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px; text-decoration: none;
+    font-family: var(--font-body); font-size: 16px; font-weight: 600;
+    padding: 14px 26px; border-radius: 999px; transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-wa { background: var(--wa); color: #fff; box-shadow: 0 8px 22px rgba(53, 87, 63, 0.32); }
+  .btn-wa:hover { background: var(--wa-dark); color: #fff; }
+  .btn-mail { background: transparent; color: var(--accent-dark); border: 1.5px solid var(--accent); }
+  .btn-mail:hover { background: var(--accent-soft); }
+  .btn svg { flex: none; }
+
+  /* Header */
+  header {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(246, 243, 240, 0.85); backdrop-filter: blur(12px) saturate(1.3);
+    -webkit-backdrop-filter: blur(12px) saturate(1.3); border-bottom: 1px solid var(--divider);
+  }
+  .nav { display: flex; align-items: center; gap: 13px; padding: 12px clamp(16px, 4vw, 40px); max-width: 1160px; margin: 0 auto; }
+  .brand { margin-right: auto; text-decoration: none; color: inherit; display: flex; align-items: baseline; gap: 8px; white-space: nowrap; }
+  .brand strong { font-family: var(--font-heading); font-weight: 600; font-size: 23px; letter-spacing: 0.01em; }
+  .brand span { font-size: 9px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--accent-dark); }
+  .nav-links { display: flex; flex-wrap: wrap; gap: 4px 14px; list-style: none; margin: 0; padding: 0; }
+  .nav-links a { font-size: 15px; text-decoration: none; color: var(--text); border-bottom: 1px solid transparent; padding: 4px 0; }
+  .nav-links a:hover { color: var(--accent-dark); border-bottom-color: var(--accent); }
+  .nav .btn { padding: 9px 18px; font-size: 14.5px; }
+  .lang-toggle { display: inline-flex; align-items: stretch; border: 1px solid var(--accent); border-radius: 999px; overflow: hidden; font-size: 13.5px; white-space: nowrap; }
+  .lang-toggle a, .lang-toggle .active { padding: 6px 13px; text-decoration: none; color: var(--accent-dark); }
+  .lang-toggle a:hover { background: var(--accent-soft); }
+  .lang-toggle .active { background: var(--accent-dark); color: #fff; }
+  @media (max-width: 920px) { .nav-links { display: none; } }
+
+  /* Hero */
+  .hero { padding: clamp(36px, 5vw, 72px) 0 clamp(44px, 6vw, 80px); }
+  .hero-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: clamp(24px, 4vw, 56px); align-items: center; }
+  @media (max-width: 820px) { .hero-grid { grid-template-columns: 1fr; } }
+  .hero h1 { font-size: clamp(38px, 6vw, 64px); }
+  .hero h1 em { font-style: italic; color: var(--accent-dark); }
+  .hero p.lead { font-size: 18px; color: var(--muted); max-width: 540px; margin: 18px 0 26px; }
+  .hero-ctas { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+  .hero-note { margin-top: 18px; font-size: 14.5px; color: var(--muted); }
+  .hero-img { border-radius: 24px; overflow: hidden; box-shadow: var(--shadow); aspect-ratio: 4 / 5; }
+  .hero-img img { width: 100%; height: 100%; object-fit: cover; }
+  .price-strip {
+    margin-top: 30px; display: flex; flex-wrap: wrap; gap: 10px 26px;
+    padding: 16px 20px; background: var(--surface); border: 1px solid var(--divider); border-radius: var(--radius);
+  }
+  .price-strip div { font-size: 14.5px; color: var(--muted); }
+  .price-strip strong { display: block; font-family: var(--font-heading); font-size: 22px; color: var(--text); font-weight: 600; }
+
+  /* Product grid */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(255px, 1fr)); gap: 22px; margin-top: 36px; }
+  .card {
+    background: var(--surface); border: 1px solid var(--divider); border-radius: var(--radius);
+    overflow: hidden; display: flex; flex-direction: column; transition: transform .18s ease, box-shadow .18s ease;
+  }
+  .card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+  .card-img { aspect-ratio: 1 / 1; overflow: hidden; background: var(--surface-2); position: relative; }
+  .card-img img { width: 100%; height: 100%; object-fit: cover; }
+  .card-body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .card-top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .card h3 { font-size: 22px; }
+  .price { font-family: var(--font-heading); font-size: 25px; font-weight: 600; color: var(--accent-dark); white-space: nowrap; }
+  .card p { margin: 0; font-size: 14.5px; color: var(--muted); flex: 1; }
+  .card .order { margin-top: 12px; font-size: 14.5px; font-weight: 600; color: var(--wa); text-decoration: none; display: inline-flex; align-items: center; gap: 7px; }
+  .card .order:hover { color: var(--wa-dark); text-decoration: underline; }
+  .badge {
+    position: absolute; top: 12px; left: 12px; background: var(--accent-dark); color: #fff;
+    font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; padding: 5px 11px; border-radius: 999px; z-index: 2;
+  }
+
+  /* Gallery */
+  .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(255px, 1fr)); gap: 22px; margin-top: 36px; }
+  .gcard { background: var(--surface); border: 1px solid var(--divider); border-radius: var(--radius); overflow: hidden; transition: transform .18s ease, box-shadow .18s ease; }
+  .gcard:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+  .gcard .gimg { aspect-ratio: 4 / 5; overflow: hidden; background: var(--surface-2); position: relative; }
+  .gcard img { width: 100%; height: 100%; object-fit: cover; }
+  .gcard figcaption { padding: 14px 16px 16px; }
+  .gcard figcaption strong { font-family: var(--font-heading); font-size: 20px; font-weight: 600; display: block; }
+  .gcard figcaption span:not(.price) { font-size: 14px; color: var(--muted); }
+  .gcard figure { margin: 0; }
+
+  .notes { margin-top: 34px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+  .note {
+    background: var(--accent-soft); border: 1px solid rgba(182, 130, 53, 0.35);
+    border-radius: var(--radius); padding: 18px 20px; font-size: 15px;
+  }
+  .note strong { font-family: var(--font-heading); font-size: 19px; display: block; margin-bottom: 4px; }
+
+  /* Alternate band */
+  .band { background: var(--surface-2); border-top: 1px solid var(--divider); border-bottom: 1px solid var(--divider); }
+
+  /* About */
+  .about p { color: var(--muted); }
+
+  /* Testimonials */
+  .quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 22px; margin-top: 36px; }
+  .quote { background: var(--surface); border: 1px solid var(--divider); border-radius: var(--radius); padding: 26px 26px 22px; display: flex; flex-direction: column; }
+  .quote .mark { font-family: var(--font-heading); font-size: 54px; line-height: 0.6; color: var(--accent); }
+  .quote p { font-style: italic; margin: 14px 0 18px; flex: 1; }
+  .quote footer { font-size: 14.5px; color: var(--muted); }
+  .quote footer strong { color: var(--text); font-family: var(--font-body); }
+  .stars { color: var(--accent); letter-spacing: 3px; font-size: 14px; margin-top: 4px; }
+
+  /* FAQ */
+  .faq { max-width: 780px; margin: 36px auto 0; }
+  details { background: var(--surface); border: 1px solid var(--divider); border-radius: var(--radius); margin-bottom: 12px; padding: 0 22px; }
+  details summary {
+    list-style: none; cursor: pointer; font-family: var(--font-heading); font-size: 20px; font-weight: 600;
+    padding: 18px 0; display: flex; justify-content: space-between; align-items: center; gap: 16px;
+  }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::after { content: "+"; font-size: 26px; color: var(--accent); flex: none; transition: transform .2s ease; }
+  details[open] summary::after { transform: rotate(45deg); }
+  details p { margin: 0 0 18px; color: var(--muted); }
+
+  /* Contact */
+  .contact { text-align: center; }
+  .contact-ctas { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin-top: 30px; }
+  .contact-ctas .btn { font-size: 17px; padding: 16px 32px; }
+  .contact-meta { margin-top: 26px; color: var(--muted); font-size: 15px; }
+  .contact-meta a { color: var(--accent-dark); }
+
+  footer.site { border-top: 1px solid var(--divider); padding: 26px 0 90px; font-size: 14px; color: var(--muted); }
+  footer.site .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
+  footer.site .credits { flex-basis: 100%; font-size: 12px; color: var(--muted); opacity: 0.8; }
+
+  /* Floating WhatsApp */
+  .wa-float {
+    position: fixed; right: 18px; bottom: 18px; z-index: 90;
+    width: 60px; height: 60px; border-radius: 50%; background: var(--wa);
+    display: grid; place-items: center; box-shadow: 0 10px 26px rgba(39, 67, 47, 0.45);
+    transition: transform .15s ease, background .15s ease;
+  }
+  .wa-float:hover { transform: scale(1.08); background: var(--wa-dark); }
+
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#top"><strong>Silver Spoon</strong><span>Berlin</span></a>
+    <ul class="nav-links">
+      <li><a href="#flavours">Flavours</a></li>
+      <li><a href="#creations">Our Creations</a></li>
+      <li><a href="#treats">Brownies &amp; Cupcakes</a></li>
+      <li><a href="#chef">The Chef</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="lang-toggle" aria-label="Language selection">
+      <span class="active" aria-current="true">EN</span>
+      <a href="../index.html" hreflang="de" lang="de" aria-label="Zur deutschen Version wechseln">DE</a>
+    </div>
+    <a class="btn btn-wa" href="https://wa.me/4915209613663?text=Hi%20Silver%20Spoon!%20I%27d%20like%20to%20order%20a%20cake." target="_blank" rel="noopener">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15L2 22l5.16-1.35A10 10 0 1 0 12 2Zm5.46 14.2c-.23.65-1.35 1.24-1.86 1.28-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.9-4.66-4.08-.13-.18-1.1-1.47-1.1-2.8 0-1.34.7-2 .95-2.27.25-.27.54-.34.72-.34.18 0 .36 0 .52.01.17.01.39-.06.61.47.23.54.77 1.87.84 2 .07.14.11.3.02.48-.09.18-.14.29-.27.45-.14.16-.29.36-.41.48-.14.13-.28.28-.12.55.16.27.71 1.17 1.52 1.9 1.05.93 1.93 1.22 2.2 1.36.27.13.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.75 1.85.88.27.14.45.2.52.32.07.11.07.65-.16 1.3Z"/></svg>
+      WhatsApp
+    </a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="kicker">Home bakery · Berlin</span>
+        <h1>Freshly baked cakes, <em>made to order</em>.</h1>
+        <p class="lead">Pick a flavour, tell us your theme, and chef Neethu bakes and decorates it fresh for your day. Just send a sample picture of the cake you'd like — or simply describe your idea.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-wa" href="https://wa.me/4915209613663?text=Hi%20Silver%20Spoon!%20I%27d%20like%20to%20order%20a%20cake." target="_blank" rel="noopener">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15L2 22l5.16-1.35A10 10 0 1 0 12 2Zm5.46 14.2c-.23.65-1.35 1.24-1.86 1.28-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.9-4.66-4.08-.13-.18-1.1-1.47-1.1-2.8 0-1.34.7-2 .95-2.27.25-.27.54-.34.72-.34.18 0 .36 0 .52.01.17.01.39-.06.61.47.23.54.77 1.87.84 2 .07.14.11.3.02.48-.09.18-.14.29-.27.45-.14.16-.29.36-.41.48-.14.13-.28.28-.12.55.16.27.71 1.17 1.52 1.9 1.05.93 1.93 1.22 2.2 1.36.27.13.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.75 1.85.88.27.14.45.2.52.32.07.11.07.65-.16 1.3Z"/></svg>
+            Order through WhatsApp
+          </a>
+          <a class="btn btn-mail" href="mailto:order@silverspoonberlin.de?subject=Cake%20order">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg>
+            Order through Email
+          </a>
+        </div>
+        <div class="price-strip">
+          <div><strong>from €90</strong>Birthday cakes</div>
+          <div><strong>up to €200</strong>Double-tier customised</div>
+          <div><strong>€3 / piece</strong>Brownies</div>
+        </div>
+        <p class="hero-note">Vegan options on request — please mention it when you order, as not all cakes are vegan.</p>
+      </div>
+      <div class="hero-img">
+        <img src="../pics/IMG_4438.PNG" alt="A tall cake with hand-painted pastel buttercream and sugar flowers on a pink cake stand." fetchpriority="high">
+      </div>
+    </div>
+  </section>
+
+  <!-- Flavours -->
+  <section id="flavours" class="band">
+    <div class="wrap">
+      <span class="kicker">Freshly baked</span>
+      <h2 class="section-title">Our cake flavours</h2>
+      <p class="section-sub">These are the flavours we bake — every one of them fresh, only on order. Pick your favourite as the base, and we'll decorate it around your theme.</p>
+
+      <div class="grid">
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="../pics/flavours/chocolate.jpg" alt="A slice of rich chocolate cake."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Classic Chocolate</h3></div>
+            <p>Rich, moist chocolate sponge with silky chocolate cream — the all-time favourite.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="../pics/flavours/white-chocolate.jpg" alt="A slice of white chocolate layer cake topped with white chocolate curls."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>White Chocolate</h3></div>
+            <p>Delicate white chocolate sponge and cream — smooth, elegant and not too sweet.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="../pics/flavours/vancho.jpg" alt="A slice of layered chocolate and vanilla Vancho cake with a marbled glaze."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Vancho</h3></div>
+            <p>Our special chocolate–vanilla mix: two flavours swirled into one, loved by everyone.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="../pics/flavours/red-carpet.jpg" alt="A slice of red layered cake with cream frosting and chocolate curls."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Red Carpet</h3></div>
+            <p>A show-stopping red beauty layered with soft cream — for celebrations that deserve a grand entrance.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="../pics/flavours/death-by-chocolate.jpg" alt="A slice of dark chocolate layer cake topped with chocolate shavings."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Death by Chocolate</h3></div>
+            <p>For serious chocolate lovers: dark, intense, layer after layer of pure chocolate indulgence.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="../pics/flavours/dark-forest.jpg" alt="A slice of chocolate and cherry layer cake topped with fresh cherries."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Dark Forest</h3></div>
+            <p>Chocolate sponge, whipped cream and cherries — our take on the timeless classic.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="../pics/flavours/berry.jpg" alt="A slice of berry layer cake with fresh raspberries, blueberries and blackberries."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Berry Tasting</h3></div>
+            <p>Light sponge with fresh berries and fruity cream — bright, fresh and summery.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="../pics/flavours/tea-cake.jpg" alt="A slice of Kerala-style tea cake on a ceramic plate."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Kerala Tea Cake</h3></div>
+            <p>Indian Kerala-style tea cake — a nostalgic teatime treat, baked fresh only on order.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="../pics/flavours/ghee-cake.jpg" alt="A slice of golden ghee cake topped with cashews and almonds."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Ghee Cake</h3></div>
+            <p>Rich, aromatic Kerala ghee cake — melts in the mouth. Made only on order, always fresh.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="notes">
+        <div class="note"><strong>Your theme, any flavour</strong>Decoration is made around your theme or wish — pick any flavour above and we design the rest together.</div>
+        <div class="note"><strong>Vegan? Just say so</strong>Not all cakes are vegan, so please mention it when ordering and we'll bake yours accordingly.</div>
+        <div class="note"><strong>Pickup with a promise</strong>Only double-tier cakes are delivered — everything else is pickup only. But trust us: one bite, and you'll know the trip was worth it.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Custom creations gallery -->
+  <section id="creations">
+    <div class="wrap">
+      <span class="kicker">Made to your theme</span>
+      <h2 class="section-title">Customisations we've made</h2>
+      <p class="section-sub">A few favourites from our kitchen — but the designs are <em>not</em> limited to these. Whatever theme you have in mind, we will make it. When you place your order through WhatsApp or email, just send a sample picture of the cake you need, or tell us the idea you have. Simple birthday cakes start at €90; big double-tier customised cakes go up to €200 and are the only ones we deliver.</p>
+
+      <div class="gallery">
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="../pics/IMG_6485.JPG" alt="A cake with hand-painted floral buttercream topped with a pink peony."></div>
+          <figcaption><div class="card-top"><strong>Painted Peony</strong><span class="price">€160</span></div><span>Hand-painted floral buttercream crowned with a pink peony — elegant and romantic.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg">
+            <span class="badge">Double-tier · Delivery</span>
+            <img loading="lazy" src="../pics/IMG_6808.JPG" alt="A two-tier pastel baby-shower cake with fondant balloons and a sleeping baby.">
+          </div>
+          <figcaption><div class="card-top"><strong>Baby Shower Dream</strong><span class="price">€160</span></div><span>Two pastel tiers with fondant balloons and a sleeping baby — delivered and set up for the party.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg">
+            <span class="badge">Double-tier · Delivery</span>
+            <img loading="lazy" src="../pics/IMG_6914.JPG" alt="A two-tier blue and cream 'Mom to be' cake with teddy bears and baby clothes.">
+          </div>
+          <figcaption><div class="card-top"><strong>Mom To Be</strong><span class="price">€160</span></div><span>Blue and cream tiers with teddy bears, tiny onesies and golden pearls for a gender reveal.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="../pics/IMG_6917.JPG" alt="A blue Sonic the Hedgehog birthday cake with Sonic and Tails figures."></div>
+          <figcaption><div class="card-top"><strong>Sonic Speed</strong><span class="price">€100</span></div><span>Sonic and Tails, golden rings and all — a favourite cartoon turned into a birthday cake.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="../pics/IMG_6913.JPG" alt="A red Paw Patrol cake with a Marshall figure and the number three."></div>
+          <figcaption><div class="card-top"><strong>Paw Patrol to the Rescue</strong><span class="price">€100</span></div><span>Marshall reporting for duty on a third birthday — paw prints, badge and fire hat included.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="../pics/IMG_6512.JPG" alt="A tall cake with a mountain landscape, camper van and snow-capped fondant peaks."></div>
+          <figcaption><div class="card-top"><strong>Mountain Adventure</strong><span class="price">€100</span></div><span>Snow-capped fondant peaks, pine trees and a little camper van for a travel lover.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="../pics/IMG_6591.JPG" alt="A black monster-truck cake with flames and a racing flag."></div>
+          <figcaption><div class="card-top"><strong>Monster Truck</strong><span class="price">€100</span></div><span>Flames, checkered flags and big wheels for a fourth birthday full of horsepower.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="../pics/IMG_6602.JPG" alt="A first-birthday cake with a smiling sun, daisies and fondant bees."></div>
+          <figcaption><div class="card-top"><strong>First Birthday Sunshine</strong><span class="price">€90</span></div><span>A smiling sun, daisies and busy little bees to celebrate turning one.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="../pics/IMG_6486.JPG" alt="A winter ski-themed cake with snowflakes and a small skier figure."></div>
+          <figcaption><div class="card-top"><strong>Ski Season</strong><span class="price">€90</span></div><span>Snowflakes, slopes and a tiny skier — a winter birthday on the piste.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="../pics/IMG_6816.JPG" alt="A minimalist white cake with two fondant figures and red LOVE lettering."></div>
+          <figcaption><div class="card-top"><strong>Love, Simply</strong><span class="price">€90</span></div><span>A minimalist white cake with two sweethearts and a heart balloon — perfect for anniversaries.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="../pics/IMG_6555.JPG" alt="A humorous birthday cake with a fondant figure lying flat next to a bottle."></div>
+          <figcaption><div class="card-top"><strong>The Morning After</strong><span class="price">€90</span></div><span>We do humour too — a cheeky 37th birthday cake that made the whole party laugh.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="../pics/IMG_6918.JPG" alt="A safari cake with a fondant elephant, giraffe and zebra."></div>
+          <figcaption><div class="card-top"><strong>Safari Party</strong><span class="price">€100</span></div><span>Elephant, giraffe and zebra out of fondant — a whole jungle on one cake.</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brownies & cupcakes -->
+  <section id="treats" class="band">
+    <div class="wrap">
+      <span class="kicker">Little indulgences</span>
+      <h2 class="section-title">Brownies &amp; Cupcakes</h2>
+      <p class="section-sub">Little extras alongside your cake — or a treat on their own.</p>
+      <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); max-width: 780px;">
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="../pics/flavours/brownies.jpg" alt="A stack of fudgy walnut brownies with caramel drizzle."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Brownies</h3><span class="price">€3 / piece</span></div>
+            <p>Fudgy, freshly baked chocolate brownies. Buying in bulk for a party or office? Give us a call — the price can be discussed over phone.</p>
+            <a class="order" href="https://wa.me/4915209613663?text=Hi!%20I%27d%20like%20to%20order%20brownies." target="_blank" rel="noopener">Order on WhatsApp →</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="../pics/flavours/cupcakes.jpg" alt="Three assorted cupcakes with chocolate, lavender and raspberry frosting."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Decorated Cupcakes</h3><span class="price">on request</span></div>
+            <p>Cupcakes decorated to match your theme — perfect alongside a cake or as party favours. Contact us for flavours and pricing.</p>
+            <a class="order" href="https://wa.me/4915209613663?text=Hi!%20I%27d%20like%20to%20order%20decorated%20cupcakes." target="_blank" rel="noopener">Order on WhatsApp →</a>
+          </div>
+        </article>
+      </div>
+      <p class="section-sub" style="margin-top: 30px;">Craving something special that isn't listed? Feel free to contact us about any special cakes and pastries — we love a good challenge.</p>
+    </div>
+  </section>
+
+  <!-- Chef -->
+  <section id="chef">
+    <div class="wrap about" style="max-width: 820px; text-align: center;">
+      <div>
+        <span class="kicker">Silver Spoon · Berlin</span>
+        <h2 class="section-title">About the chef</h2>
+        <p>Silver Spoon is a small Berlin home bakery run by chef Neethu, who bakes and decorates every single cake herself — from the first sketch of your theme to the final sugar flower. Nothing sits on a shelf: every cake, brownie and cupcake is baked fresh only when you order it.</p>
+        <p>She holds a Master's degree in Computer Science — but chose the oven over the keyboard, training as a chef through professional baking courses before founding Silver Spoon. Her baking brings together classic patisserie and the flavours she grew up with in Kerala, India — which is why you'll find ghee cake and Kerala-style tea cake right next to white chocolate and berry cakes on the menu.</p>
+        <a class="btn btn-wa" href="https://wa.me/4915209613663?text=Hi%20Neethu!%20I%27d%20like%20to%20talk%20about%20a%20cake." target="_blank" rel="noopener" style="margin-top: 10px;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15L2 22l5.16-1.35A10 10 0 1 0 12 2Zm5.46 14.2c-.23.65-1.35 1.24-1.86 1.28-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.9-4.66-4.08-.13-.18-1.1-1.47-1.1-2.8 0-1.34.7-2 .95-2.27.25-.27.54-.34.72-.34.18 0 .36 0 .52.01.17.01.39-.06.61.47.23.54.77 1.87.84 2 .07.14.11.3.02.48-.09.18-.14.29-.27.45-.14.16-.29.36-.41.48-.14.13-.28.28-.12.55.16.27.71 1.17 1.52 1.9 1.05.93 1.93 1.22 2.2 1.36.27.13.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.75 1.85.88.27.14.45.2.52.32.07.11.07.65-.16 1.3Z"/></svg>
+          Chat with the chef
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="band">
+    <div class="wrap">
+      <span class="kicker">Sweet words</span>
+      <h2 class="section-title">What our customers say</h2>
+      <div class="quotes">
+        <article class="quote">
+          <span class="mark">“</span>
+          <p>We ordered a Vancho cake for our son's birthday and it was the star of the party. Beautifully decorated to his theme, incredibly moist and not too sweet — the plate was empty before the candles cooled down.</p>
+          <footer><strong>Mrs Anusha &amp; Mr Abilaash</strong> · Neuenhagen<div class="stars">★★★★★</div></footer>
+        </article>
+        <article class="quote">
+          <span class="mark">“</span>
+          <p>The double-tier customised cake for our anniversary was delivered right on time and looked even better than the pictures we sent. The Death by Chocolate base was pure heaven — our guests are still talking about it.</p>
+          <footer><strong>Mr Abhishek &amp; Mrs Krishna</strong> · Kaulsdorf<div class="stars">★★★★★</div></footer>
+        </article>
+        <article class="quote">
+          <span class="mark">“</span>
+          <p>I crossed half of Berlin to pick up brownies and a Kerala tea cake — and I'd do it again tomorrow. Everything tastes freshly baked because it truly is. Honest prices, honest baking.</p>
+          <footer><strong>Augustin Müller</strong> · Mitte, Berlin<div class="stars">★★★★★</div></footer>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <span class="kicker">Good to know</span>
+      <h2 class="section-title">Frequently asked questions</h2>
+      <div class="faq">
+        <details>
+          <summary>How far in advance should I order?</summary>
+          <p>Every cake is baked fresh on order, so a few days' notice is ideal for simple cakes. For themed decorations and double-tier cakes, one to two weeks gives us time to make it perfect. Short on time? Message us anyway — we'll tell you honestly what's possible.</p>
+        </details>
+        <details>
+          <summary>What do the cakes cost?</summary>
+          <p>Prices are transparent: simple birthday cakes start at €90, big double-tier customised cakes go up to €200, and everything else sits in between. Brownies are €3 per piece. You'll always know the price before we start baking.</p>
+        </details>
+        <details>
+          <summary>Do you deliver?</summary>
+          <p>Delivery is available only for double-tier cakes. All other cakes are pickup only — but we're sure you won't regret coming: the moment you take the first bite, you'll know it was worth the trip.</p>
+        </details>
+        <details>
+          <summary>Can you make my theme?</summary>
+          <p>Yes! The designs you see on this page are just examples — whatever theme you have in mind, we will make it, on any flavour you prefer. When ordering, just send a sample picture of the cake you'd like or describe your idea.</p>
+        </details>
+        <details>
+          <summary>Do you have vegan options?</summary>
+          <p>Not all our cakes are vegan, so please specify when ordering if you need a vegan cake and we'll bake yours accordingly.</p>
+        </details>
+        <details>
+          <summary>Can I order brownies in bulk?</summary>
+          <p>Absolutely — brownies are €3 per piece, and for bulk orders (parties, offices, events) the price can be discussed over phone. Just give us a call or message us on WhatsApp.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact band">
+    <div class="wrap">
+      <span class="kicker">Get in touch</span>
+      <h2 class="section-title">Tell us about the occasion</h2>
+      <p class="section-sub" style="margin-left: auto; margin-right: auto;">Send us your date, the occasion, your favourite flavour and your theme — with a sample picture of the cake you need, or just the idea you have. We'll take it from there. And feel free to contact us for more details about any special cakes and pastries.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/4915209613663?text=Hi%20Silver%20Spoon!%20I%27d%20like%20to%20order%20a%20cake.%20Here%20are%20the%20details%20of%20my%20occasion%3A" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15L2 22l5.16-1.35A10 10 0 1 0 12 2Zm5.46 14.2c-.23.65-1.35 1.24-1.86 1.28-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.9-4.66-4.08-.13-.18-1.1-1.47-1.1-2.8 0-1.34.7-2 .95-2.27.25-.27.54-.34.72-.34.18 0 .36 0 .52.01.17.01.39-.06.61.47.23.54.77 1.87.84 2 .07.14.11.3.02.48-.09.18-.14.29-.27.45-.14.16-.29.36-.41.48-.14.13-.28.28-.12.55.16.27.71 1.17 1.52 1.9 1.05.93 1.93 1.22 2.2 1.36.27.13.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.75 1.85.88.27.14.45.2.52.32.07.11.07.65-.16 1.3Z"/></svg>
+          Order through WhatsApp
+        </a>
+        <a class="btn btn-mail" href="mailto:order@silverspoonberlin.de?subject=Cake%20order&body=Hi%20Silver%20Spoon%2C%0A%0ADate%20of%20the%20occasion%3A%20%0AOccasion%3A%20%0AFlavour%3A%20%0ATheme%20or%20idea%20(attach%20a%20sample%20picture%20if%20you%20have%20one)%3A%20%0A%0AThank%20you!">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg>
+          Order through Email
+        </a>
+      </div>
+      <p class="contact-meta">
+        Phone / WhatsApp: <a href="tel:+4915209613663">+49 152 09613663</a> ·
+        Email: <a href="mailto:order@silverspoonberlin.de">order@silverspoonberlin.de</a> ·
+        Instagram: <a href="https://www.instagram.com/silverspoonug?igsi=eXpqdWJ4d3A5NHJr" target="_blank" rel="noopener">@silverspoonug</a><br>
+        Berlin, Germany · Pickup for all cakes — delivery for double-tier cakes only.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 Silver Spoon · Berlin</span>
+    <span>Freshly baked, made to order, with love.</span>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/4915209613663?text=Hi%20Silver%20Spoon!%20I%27d%20like%20to%20order%20a%20cake." target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15L2 22l5.16-1.35A10 10 0 1 0 12 2Zm5.46 14.2c-.23.65-1.35 1.24-1.86 1.28-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.9-4.66-4.08-.13-.18-1.1-1.47-1.1-2.8 0-1.34.7-2 .95-2.27.25-.27.54-.34.72-.34.18 0 .36 0 .52.01.17.01.39-.06.61.47.23.54.77 1.87.84 2 .07.14.11.3.02.48-.09.18-.14.29-.27.45-.14.16-.29.36-.41.48-.14.13-.28.28-.12.55.16.27.71 1.17 1.52 1.9 1.05.93 1.93 1.22 2.2 1.36.27.13.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.75 1.85.88.27.14.45.2.52.32.07.11.07.65-.16 1.3Z"/></svg>
+</a>
+
+</body>
+</html>
