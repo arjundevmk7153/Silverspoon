@@ -1,1137 +1,559 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="./support.js"></script>
-</head>
-<body>
-<x-dc>
-<helmet>
-<link rel="stylesheet" href="_ds/classical-0e08b47a-90e3-4e97-895b-e018d7ec4f74/styles.css">
-<script src="_ds/classical-0e08b47a-90e3-4e97-895b-e018d7ec4f74/_ds_bundle.js"></script>
-<title>Silver Spoon — Feine Torten &amp; Patisserie in Berlin</title>
-<meta name="description" content="Silver Spoon ist eine kleine Berliner Patisserie von Konditorin Neethu: Anlasstorten, Cheesecakes, Macarons und Feingebäck auf Bestellung. Geburtstags- und Eventtorten ab 90 €, individuelle Torten ab 150 €.">
+<title>Silver Spoon — Cakes &amp; Bakes in Berlin · Prices from €90</title>
+<meta name="description" content="Silver Spoon Berlin: freshly baked cakes made to order. Birthday cakes from €90, double-tier customised cakes €200, brownies €3 a piece. Order through WhatsApp or email.">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<link rel="canonical" href="https://silverspoon.de/">
-<link rel="alternate" hreflang="de" href="https://silverspoon.de/">
-<link rel="alternate" hreflang="en" href="https://silverspoon.de/en/">
-<link rel="alternate" hreflang="x-default" href="https://silverspoon.de/">
+<link rel="canonical" href="https://silverspoonberlin.de/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Silver Spoon">
-<meta property="og:title" content="Silver Spoon — Feine Torten &amp; Patisserie in Berlin">
-<meta property="og:description" content="Anlasstorten, Cheesecakes und Feingebäck, von Konditorin Neethu in Berlin auf Bestellung gebacken.">
-<meta property="og:url" content="https://silverspoon.de/">
-<meta property="og:image" content="pics/IMG_4438.PNG">
-<meta property="og:locale" content="de_DE">
-<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:title" content="Silver Spoon — Cakes &amp; Bakes in Berlin · Prices from €90">
+<meta property="og:description" content="Freshly baked cakes made to order in Berlin. Birthday cakes from €90, double-tier customised cakes €200, brownies €3 a piece.">
+<meta property="og:url" content="https://silverspoonberlin.de/">
+<meta property="og:image" content="https://silverspoonberlin.de/pics/IMG_4438.PNG">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Silver Spoon — Feine Torten &amp; Patisserie in Berlin">
-<meta name="twitter:description" content="Anlasstorten, Cheesecakes und Feingebäck, von Konditorin Neethu in Berlin auf Bestellung gebacken.">
-<meta name="twitter:image" content="pics/IMG_4438.PNG">
-<style>
-  html { scroll-behavior: smooth; }
-  body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-  img[width][height] { height: auto; }
-  details > summary { list-style: none; cursor: pointer; }
-  details > summary::-webkit-details-marker { display: none; }
-  a:hover { color: var(--color-accent-700); }
-  @keyframes ss-rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
-  @keyframes ss-fade { from { opacity: 0; } to { opacity: 1; } }
-  @keyframes ss-panel { from { opacity: 0; transform: translateY(-12px); } to { opacity: 1; transform: none; } }
-  @keyframes ss-float { 0%,100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-14px) rotate(2deg); } }
-  @keyframes ss-float2 { 0%,100% { transform: translateY(-8px) rotate(4deg); } 50% { transform: translateY(6px) rotate(-2deg); } }
-  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: 0.001ms !important; } }
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
-{"@type":["Bakery","LocalBusiness"],"@id":"https://silverspoon.de/#bakery","name":"Silver Spoon","legalName":"Silver Spoon UG","description":"Feine Patisserie in Berlin: Anlasstorten, Cheesecakes, Macarons und Feingebäck auf Bestellung, gebacken von Konditorin Neethu.","url":"https://silverspoon.de/","telephone":"+49 XXX XXX XXXX","email":"hello@silverspoon.de","priceRange":"€€€","currenciesAccepted":"EUR","servesCuisine":"Patisserie","knowsLanguage":["de","en"],"founder":{"@type":"Person","name":"Neethu","jobTitle":"Konditorin und Gründerin","worksFor":{"@id":"https://silverspoon.de/#org"}},"employee":{"@type":"Person","name":"Neethu","jobTitle":"Konditorin"},"address":{"@type":"PostalAddress","addressLocality":"Berlin","addressCountry":"DE"},"areaServed":{"@type":"City","name":"Berlin"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"10:00","closes":"18:00"}],"image":"pics/IMG_4438.PNG"},
-{"@type":"Organization","@id":"https://silverspoon.de/#org","name":"Silver Spoon UG","url":"https://silverspoon.de/","logo":"pics/IMG_4438.PNG","founder":{"@type":"Person","name":"Neethu"},"address":{"@type":"PostalAddress","addressLocality":"Berlin","addressCountry":"DE"}},
-{"@type":"Product","name":"Geburtstags- und Eventtorte","description":"Handgemachte Anlasstorte für Geburtstage und Feiern, in Berlin auf Bestellung gebacken.","brand":{"@id":"https://silverspoon.de/#org"},"offers":{"@type":"Offer","price":"90","priceCurrency":"EUR","availability":"https://schema.org/InStock"}},
-{"@type":"Product","name":"Individuelle Torte","description":"Ganz individuell entworfene Anlass- oder Hochzeitstorte; der Preis richtet sich nach Etagen, Finish und Dekoration.","brand":{"@id":"https://silverspoon.de/#org"},"offers":{"@type":"Offer","price":"150","priceCurrency":"EUR","priceSpecification":{"@type":"PriceSpecification","minPrice":"150","priceCurrency":"EUR"},"availability":"https://schema.org/InStock"}},
-{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Start","item":"https://silverspoon.de/"},{"@type":"ListItem","position":2,"name":"Torten","item":"https://silverspoon.de/#cakes-de"},{"@type":"ListItem","position":3,"name":"Galerie","item":"https://silverspoon.de/#gallery-de"},{"@type":"ListItem","position":4,"name":"Über uns","item":"https://silverspoon.de/#about-de"},{"@type":"ListItem","position":5,"name":"FAQ","item":"https://silverspoon.de/#faq-de"},{"@type":"ListItem","position":6,"name":"Kontakt","item":"https://silverspoon.de/#contact-de"}]},
-{"@type":"FAQPage","inLanguage":"de","mainEntity":[
-{"@type":"Question","name":"Wie lange im Voraus sollte ich eine individuelle Torte bestellen?","acceptedAnswer":{"@type":"Answer","text":"Zwei Wochen sind für eine individuelle Anlasstorte angenehm, vier bis sechs Wochen für eine Hochzeitstorte. Kleine Kuchen und Gebäckschachteln lassen sich oft mit fünf Tagen Vorlauf backen — schreiben Sie uns, wir sagen Ihnen ehrlich, was möglich ist."}},
-{"@type":"Question","name":"Was kostet eine Torte?","acceptedAnswer":{"@type":"Answer","text":"Geburtstags- und Eventtorten beginnen bei 90 €. Ganz individuelle Torten beginnen bei 150 € und steigen mit Etagen, Finish und Dekoration. Sie erhalten immer ein schriftliches Angebot, bevor wir beginnen."}},
-{"@type":"Question","name":"Wer backt meine Torte?","acceptedAnswer":{"@type":"Answer","text":"Neethu, Konditorin und Gründerin von Silver Spoon, backt und dekoriert jede Torte selbst in der Berliner Backstube. Sie sprechen von der ersten Skizze bis zur Abholung mit derselben Person."}},
-{"@type":"Question","name":"Bieten Sie Verkostungen für Hochzeitstorten an?","acceptedAnswer":{"@type":"Answer","text":"Ja. Verkostungen finden samstags in unserer Berliner Backstube statt: sechs Biskuits, sechs Füllungen und ein Gespräch über Ihren Tag. Die Gebühr wird bei einer Bestellung angerechnet."}},
-{"@type":"Question","name":"Backen Sie vegane oder glutenfreie Torten?","acceptedAnswer":{"@type":"Answer","text":"Ja. Wir backen vegane Biskuits und Buttercremes sowie glutenfreie Biskuits mit Mandel- und Reismehl. In unserer Backstube werden auch Weizen, Ei, Milch und Nüsse verarbeitet, eine spurenfreie Umgebung können wir daher nicht garantieren — bitte nennen Sie schwere Allergien bei der Anfrage."}},
-{"@type":"Question","name":"Wie ist Ihre Stornoregelung?","acceptedAnswer":{"@type":"Answer","text":"Bei einer Absage mehr als sieben Tage vor der Abholung wird die Anzahlung vollständig zurückerstattet. Innerhalb von sieben Tagen deckt die Anzahlung bereits gekaufte Zutaten und die für Sie reservierte Backzeit."}},
-{"@type":"Question","name":"Liefern Sie in Berlin?","acceptedAnswer":{"@type":"Answer","text":"Wir liefern im gekühlten Auto in ganz Berlin für pauschal 25 € — oder Sie holen in der Backstube ab. Torten mit mehr als zwei Etagen werden immer von uns geliefert und aufgebaut."}}]}]}
+{"@type":["Bakery","LocalBusiness"],"@id":"https://silverspoonberlin.de/#bakery","name":"Silver Spoon","description":"Home bakery in Berlin: freshly baked cakes, brownies and cupcakes made to order by chef Neethu.","url":"https://silverspoonberlin.de/","telephone":"+49 152 09613663","email":"order@silverspoonberlin.de","priceRange":"€€","currenciesAccepted":"EUR","founder":{"@type":"Person","name":"Neethu","jobTitle":"Pastry chef and founder"},"address":{"@type":"PostalAddress","addressLocality":"Berlin","addressCountry":"DE"},"areaServed":{"@type":"City","name":"Berlin"},"image":"https://silverspoonberlin.de/pics/IMG_4438.PNG"},
+{"@type":"Product","name":"Birthday cake","description":"Freshly baked birthday cake in your choice of flavour, decorated to your theme.","brand":{"@id":"https://silverspoonberlin.de/#bakery"},"offers":{"@type":"Offer","price":"90","priceCurrency":"EUR","priceSpecification":{"@type":"PriceSpecification","minPrice":"90","priceCurrency":"EUR"},"availability":"https://schema.org/InStock"}},
+{"@type":"Product","name":"Double-tier customised cake","description":"Big double-tier celebration cake, fully customised. The only cake we deliver.","brand":{"@id":"https://silverspoonberlin.de/#bakery"},"offers":{"@type":"Offer","price":"200","priceCurrency":"EUR","availability":"https://schema.org/InStock"}},
+{"@type":"Product","name":"Brownie","description":"Freshly baked brownie, per piece.","brand":{"@id":"https://silverspoonberlin.de/#bakery"},"offers":{"@type":"Offer","price":"3","priceCurrency":"EUR","availability":"https://schema.org/InStock"}}]}
 </script>
-</helmet>
+<style>
+  :root {
+    --bg: #f6f3f0;
+    --surface: #fffdfb;
+    --surface-2: #f0ebe5;
+    --text: #201f1d;
+    --muted: #6d675f;
+    --accent: #b68235;
+    --accent-dark: #7d5411;
+    --accent-soft: #fff3e4;
+    --divider: rgba(32, 31, 29, 0.14);
+    --wa: #35573f;
+    --wa-dark: #27432f;
+    --radius: 16px;
+    --font-heading: "Cormorant Garamond", Georgia, serif;
+    --font-body: "Lora", Georgia, serif;
+    --shadow: 0 10px 30px rgba(72, 52, 21, 0.10);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: var(--font-body); font-size: 16.5px; line-height: 1.65;
+    -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: var(--accent-dark); }
+  h1, h2, h3 { font-family: var(--font-heading); font-weight: 600; line-height: 1.12; margin: 0; }
+  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 40px); }
+  section { padding: clamp(44px, 6.5vw, 84px) 0; }
 
-<div style="background: var(--color-bg); color: var(--color-text); font-family: var(--font-body); overflow-x: clip; position: relative;">
+  .kicker {
+    display: inline-block; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--accent-dark); margin-bottom: 12px;
+  }
+  .section-title { font-size: clamp(30px, 4.4vw, 46px); }
+  .section-sub { color: var(--muted); max-width: 680px; margin: 14px 0 0; }
 
-  <sc-if value="{{ isDe }}" hint-placeholder-val="{{ true }}">
-  <div>
-  <a href="#main-de" style="position: absolute; left: -9999px; top: 0; z-index: 200; padding: 10px 16px; background: var(--color-bg); border: 1px solid var(--color-accent); border-radius: var(--radius-md); color: var(--color-accent); font-family: var(--font-heading); text-decoration: none;" style-focus="left: 12px; top: 12px;">Zum Inhalt springen</a>
+  /* Buttons */
+  .btn {
+    display: inline-flex; align-items: center; gap: 10px; text-decoration: none;
+    font-family: var(--font-body); font-size: 16px; font-weight: 600;
+    padding: 14px 26px; border-radius: 999px; transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-wa { background: var(--wa); color: #fff; box-shadow: 0 8px 22px rgba(53, 87, 63, 0.32); }
+  .btn-wa:hover { background: var(--wa-dark); color: #fff; }
+  .btn-mail { background: transparent; color: var(--accent-dark); border: 1.5px solid var(--accent); }
+  .btn-mail:hover { background: var(--accent-soft); }
+  .btn svg { flex: none; }
 
-  <header style="position: sticky; top: 0; z-index: 60; background: color-mix(in srgb, var(--color-bg) 78%, transparent); backdrop-filter: saturate(1.4) blur(14px); -webkit-backdrop-filter: saturate(1.4) blur(14px); border-bottom: 1px solid var(--color-divider);">
-    <nav aria-label="Hauptnavigation" style="display: flex; align-items: center; gap: var(--space-4); max-width: 1240px; margin: 0 auto; padding: var(--space-3) clamp(16px, 4vw, 40px);">
-      <a href="#home-de" style="display: flex; align-items: baseline; gap: 8px; text-decoration: none; color: inherit; margin-right: auto;">
-        <span style="font-family: var(--font-heading); font-size: clamp(19px, 2.4vw, 23px); letter-spacing: 0.01em;">Silver Spoon</span>
-        <span style="font-size: 9px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-accent-700); font-family: var(--font-body);">Berlin</span>
-      </a>
-      <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
-        <ul style="display: flex; align-items: center; gap: clamp(12px, 1.9vw, 26px); list-style: none; margin: 0; padding: 0;">
-          <li><a href="#home-de" style="font-family: var(--font-heading); font-size: 15px; text-decoration: none; color: var(--color-text); padding: 6px 2px; border-bottom: 1px solid transparent;" style-hover="color: var(--color-accent-700); border-bottom-color: var(--color-accent);">Start</a></li>
-          <li><a href="#cakes-de" style="font-family: var(--font-heading); font-size: 15px; text-decoration: none; color: var(--color-text); padding: 6px 2px; border-bottom: 1px solid transparent;" style-hover="color: var(--color-accent-700); border-bottom-color: var(--color-accent);">Torten</a></li>
-          <li><a href="#baker-de" style="font-family: var(--font-heading); font-size: 15px; text-decoration: none; color: var(--color-text); padding: 6px 2px; border-bottom: 1px solid transparent;" style-hover="color: var(--color-accent-700); border-bottom-color: var(--color-accent);">Die Bäckerin</a></li>
-          <li><a href="#gallery-de" style="font-family: var(--font-heading); font-size: 15px; text-decoration: none; color: var(--color-text); padding: 6px 2px; border-bottom: 1px solid transparent;" style-hover="color: var(--color-accent-700); border-bottom-color: var(--color-accent);">Galerie</a></li>
-          <li><a href="#faq-de" style="font-family: var(--font-heading); font-size: 15px; text-decoration: none; color: var(--color-text); padding: 6px 2px; border-bottom: 1px solid transparent;" style-hover="color: var(--color-accent-700); border-bottom-color: var(--color-accent);">FAQ</a></li>
-          <li><a href="#contact-de" style="font-family: var(--font-heading); font-size: 15px; text-decoration: none; color: var(--color-text); padding: 6px 2px; border-bottom: 1px solid transparent;" style-hover="color: var(--color-accent-700); border-bottom-color: var(--color-accent);">Kontakt</a></li>
-        </ul>
-        <div role="group" aria-label="Sprache wählen" style="display: inline-flex; overflow: hidden; border: 1px solid var(--color-divider); border-radius: var(--radius-md); flex: none;">
-          <button type="button" onClick="{{ setDe }}" aria-pressed="true" lang="de" style="{{ langDeStyle }}">DE</button>
-          <button type="button" onClick="{{ setEn }}" aria-pressed="false" lang="en" style="{{ langEnStyle }}">EN</button>
+  /* Header */
+  header {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(246, 243, 240, 0.85); backdrop-filter: blur(12px) saturate(1.3);
+    -webkit-backdrop-filter: blur(12px) saturate(1.3); border-bottom: 1px solid var(--divider);
+  }
+  .nav { display: flex; align-items: center; gap: 18px; padding: 12px clamp(16px, 4vw, 40px); max-width: 1160px; margin: 0 auto; }
+  .brand { margin-right: auto; text-decoration: none; color: inherit; display: flex; align-items: baseline; gap: 8px; }
+  .brand strong { font-family: var(--font-heading); font-weight: 600; font-size: 23px; letter-spacing: 0.01em; }
+  .brand span { font-size: 9px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--accent-dark); }
+  .nav-links { display: flex; flex-wrap: wrap; gap: 4px 18px; list-style: none; margin: 0; padding: 0; }
+  .nav-links a { font-size: 15px; text-decoration: none; color: var(--text); border-bottom: 1px solid transparent; padding: 4px 0; }
+  .nav-links a:hover { color: var(--accent-dark); border-bottom-color: var(--accent); }
+  .nav .btn { padding: 9px 18px; font-size: 14.5px; }
+  @media (max-width: 920px) { .nav-links { display: none; } }
+
+  /* Hero */
+  .hero { padding: clamp(36px, 5vw, 72px) 0 clamp(44px, 6vw, 80px); }
+  .hero-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: clamp(24px, 4vw, 56px); align-items: center; }
+  @media (max-width: 820px) { .hero-grid { grid-template-columns: 1fr; } }
+  .hero h1 { font-size: clamp(38px, 6vw, 64px); }
+  .hero h1 em { font-style: italic; color: var(--accent-dark); }
+  .hero p.lead { font-size: 18px; color: var(--muted); max-width: 540px; margin: 18px 0 26px; }
+  .hero-ctas { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+  .hero-note { margin-top: 18px; font-size: 14.5px; color: var(--muted); }
+  .hero-img { border-radius: 24px; overflow: hidden; box-shadow: var(--shadow); aspect-ratio: 4 / 5; }
+  .hero-img img { width: 100%; height: 100%; object-fit: cover; }
+  .price-strip {
+    margin-top: 30px; display: flex; flex-wrap: wrap; gap: 10px 26px;
+    padding: 16px 20px; background: var(--surface); border: 1px solid var(--divider); border-radius: var(--radius);
+  }
+  .price-strip div { font-size: 14.5px; color: var(--muted); }
+  .price-strip strong { display: block; font-family: var(--font-heading); font-size: 22px; color: var(--text); font-weight: 600; }
+
+  /* Product grid */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(255px, 1fr)); gap: 22px; margin-top: 36px; }
+  .card {
+    background: var(--surface); border: 1px solid var(--divider); border-radius: var(--radius);
+    overflow: hidden; display: flex; flex-direction: column; transition: transform .18s ease, box-shadow .18s ease;
+  }
+  .card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+  .card-img { aspect-ratio: 1 / 1; overflow: hidden; background: var(--surface-2); position: relative; }
+  .card-img img { width: 100%; height: 100%; object-fit: cover; }
+  .card-body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .card-top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .card h3 { font-size: 22px; }
+  .price { font-family: var(--font-heading); font-size: 25px; font-weight: 600; color: var(--accent-dark); white-space: nowrap; }
+  .card p { margin: 0; font-size: 14.5px; color: var(--muted); flex: 1; }
+  .card .order { margin-top: 12px; font-size: 14.5px; font-weight: 600; color: var(--wa); text-decoration: none; display: inline-flex; align-items: center; gap: 7px; }
+  .card .order:hover { color: var(--wa-dark); text-decoration: underline; }
+  .badge {
+    position: absolute; top: 12px; left: 12px; background: var(--accent-dark); color: #fff;
+    font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; padding: 5px 11px; border-radius: 999px; z-index: 2;
+  }
+
+  /* Gallery */
+  .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(255px, 1fr)); gap: 22px; margin-top: 36px; }
+  .gcard { background: var(--surface); border: 1px solid var(--divider); border-radius: var(--radius); overflow: hidden; transition: transform .18s ease, box-shadow .18s ease; }
+  .gcard:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+  .gcard .gimg { aspect-ratio: 4 / 5; overflow: hidden; background: var(--surface-2); position: relative; }
+  .gcard img { width: 100%; height: 100%; object-fit: cover; }
+  .gcard figcaption { padding: 14px 16px 16px; }
+  .gcard figcaption strong { font-family: var(--font-heading); font-size: 20px; font-weight: 600; display: block; }
+  .gcard figcaption span:not(.price) { font-size: 14px; color: var(--muted); }
+  .gcard figure { margin: 0; }
+
+  .notes { margin-top: 34px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+  .note {
+    background: var(--accent-soft); border: 1px solid rgba(182, 130, 53, 0.35);
+    border-radius: var(--radius); padding: 18px 20px; font-size: 15px;
+  }
+  .note strong { font-family: var(--font-heading); font-size: 19px; display: block; margin-bottom: 4px; }
+
+  /* Alternate band */
+  .band { background: var(--surface-2); border-top: 1px solid var(--divider); border-bottom: 1px solid var(--divider); }
+
+  /* About */
+  .about p { color: var(--muted); }
+
+  /* Testimonials */
+  .quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 22px; margin-top: 36px; }
+  .quote { background: var(--surface); border: 1px solid var(--divider); border-radius: var(--radius); padding: 26px 26px 22px; display: flex; flex-direction: column; }
+  .quote .mark { font-family: var(--font-heading); font-size: 54px; line-height: 0.6; color: var(--accent); }
+  .quote p { font-style: italic; margin: 14px 0 18px; flex: 1; }
+  .quote footer { font-size: 14.5px; color: var(--muted); }
+  .quote footer strong { color: var(--text); font-family: var(--font-body); }
+  .stars { color: var(--accent); letter-spacing: 3px; font-size: 14px; margin-top: 4px; }
+
+  /* FAQ */
+  .faq { max-width: 780px; margin: 36px auto 0; }
+  details { background: var(--surface); border: 1px solid var(--divider); border-radius: var(--radius); margin-bottom: 12px; padding: 0 22px; }
+  details summary {
+    list-style: none; cursor: pointer; font-family: var(--font-heading); font-size: 20px; font-weight: 600;
+    padding: 18px 0; display: flex; justify-content: space-between; align-items: center; gap: 16px;
+  }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::after { content: "+"; font-size: 26px; color: var(--accent); flex: none; transition: transform .2s ease; }
+  details[open] summary::after { transform: rotate(45deg); }
+  details p { margin: 0 0 18px; color: var(--muted); }
+
+  /* Contact */
+  .contact { text-align: center; }
+  .contact-ctas { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin-top: 30px; }
+  .contact-ctas .btn { font-size: 17px; padding: 16px 32px; }
+  .contact-meta { margin-top: 26px; color: var(--muted); font-size: 15px; }
+  .contact-meta a { color: var(--accent-dark); }
+
+  footer.site { border-top: 1px solid var(--divider); padding: 26px 0 90px; font-size: 14px; color: var(--muted); }
+  footer.site .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
+  footer.site .credits { flex-basis: 100%; font-size: 12px; color: var(--muted); opacity: 0.8; }
+
+  /* Floating WhatsApp */
+  .wa-float {
+    position: fixed; right: 18px; bottom: 18px; z-index: 90;
+    width: 60px; height: 60px; border-radius: 50%; background: var(--wa);
+    display: grid; place-items: center; box-shadow: 0 10px 26px rgba(39, 67, 47, 0.45);
+    transition: transform .15s ease, background .15s ease;
+  }
+  .wa-float:hover { transform: scale(1.08); background: var(--wa-dark); }
+
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#top"><strong>Silver Spoon</strong><span>Berlin</span></a>
+    <ul class="nav-links">
+      <li><a href="#flavours">Flavours</a></li>
+      <li><a href="#creations">Our Creations</a></li>
+      <li><a href="#treats">Brownies &amp; Cupcakes</a></li>
+      <li><a href="#chef">The Chef</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="btn btn-wa" href="https://wa.me/4915209613663?text=Hi%20Silver%20Spoon!%20I%27d%20like%20to%20order%20a%20cake." target="_blank" rel="noopener">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15L2 22l5.16-1.35A10 10 0 1 0 12 2Zm5.46 14.2c-.23.65-1.35 1.24-1.86 1.28-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.9-4.66-4.08-.13-.18-1.1-1.47-1.1-2.8 0-1.34.7-2 .95-2.27.25-.27.54-.34.72-.34.18 0 .36 0 .52.01.17.01.39-.06.61.47.23.54.77 1.87.84 2 .07.14.11.3.02.48-.09.18-.14.29-.27.45-.14.16-.29.36-.41.48-.14.13-.28.28-.12.55.16.27.71 1.17 1.52 1.9 1.05.93 1.93 1.22 2.2 1.36.27.13.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.75 1.85.88.27.14.45.2.52.32.07.11.07.65-.16 1.3Z"/></svg>
+      WhatsApp
+    </a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="kicker">Home bakery · Berlin</span>
+        <h1>Freshly baked cakes, <em>made to order</em>.</h1>
+        <p class="lead">Pick a flavour, tell us your theme, and chef Neethu bakes and decorates it fresh for your day. Just send a sample picture of the cake you'd like — or simply describe your idea.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-wa" href="https://wa.me/4915209613663?text=Hi%20Silver%20Spoon!%20I%27d%20like%20to%20order%20a%20cake." target="_blank" rel="noopener">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15L2 22l5.16-1.35A10 10 0 1 0 12 2Zm5.46 14.2c-.23.65-1.35 1.24-1.86 1.28-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.9-4.66-4.08-.13-.18-1.1-1.47-1.1-2.8 0-1.34.7-2 .95-2.27.25-.27.54-.34.72-.34.18 0 .36 0 .52.01.17.01.39-.06.61.47.23.54.77 1.87.84 2 .07.14.11.3.02.48-.09.18-.14.29-.27.45-.14.16-.29.36-.41.48-.14.13-.28.28-.12.55.16.27.71 1.17 1.52 1.9 1.05.93 1.93 1.22 2.2 1.36.27.13.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.75 1.85.88.27.14.45.2.52.32.07.11.07.65-.16 1.3Z"/></svg>
+            Order through WhatsApp
+          </a>
+          <a class="btn btn-mail" href="mailto:order@silverspoonberlin.de?subject=Cake%20order">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg>
+            Order through Email
+          </a>
         </div>
-        <a class="btn btn-primary" href="{{ waHref }}" target="_blank" rel="noopener" style="min-height: 44px; padding-inline: var(--space-4); flex: none;">Jetzt bestellen</a>
-      </sc-if>
-      <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
-        <div role="group" aria-label="Sprache wählen" style="display: inline-flex; overflow: hidden; border: 1px solid var(--color-divider); border-radius: var(--radius-md);">
-          <button type="button" onClick="{{ setDe }}" aria-pressed="true" lang="de" style="{{ langDeStyle }}">DE</button>
-          <button type="button" onClick="{{ setEn }}" aria-pressed="false" lang="en" style="{{ langEnStyle }}">EN</button>
+        <div class="price-strip">
+          <div><strong>from €90</strong>Birthday cakes</div>
+          <div><strong>up to €200</strong>Double-tier customised</div>
+          <div><strong>€3 / piece</strong>Brownies</div>
         </div>
-        <button type="button" onClick="{{ toggleMenu }}" aria-controls="ss-menu-de" aria-expanded="{{ menuExpanded }}" aria-label="{{ menuLabelDe }}" style="width: 48px; height: 48px; display: grid; place-items: center; background: transparent; border: 1px solid var(--color-divider); border-radius: var(--radius-md); cursor: pointer; flex: none;" style-hover="background: color-mix(in srgb, var(--color-accent) 10%, transparent);">
-          <span style="display: grid; gap: 5px; width: 22px;">
-            <span style="{{ bar1 }}"></span>
-            <span style="{{ bar2 }}"></span>
-            <span style="{{ bar3 }}"></span>
-          </span>
-        </button>
-      </sc-if>
-    </nav>
-    <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
-      <div id="ss-menu-de" style="border-top: 1px solid var(--color-divider); background: color-mix(in srgb, var(--color-bg) 96%, transparent); backdrop-filter: blur(18px); animation: ss-panel 0.32s cubic-bezier(0.22, 1, 0.36, 1) both; padding: var(--space-4) clamp(16px, 5vw, 32px) var(--space-6);">
-        <ul style="list-style: none; margin: 0 0 var(--space-4); padding: 0; display: grid; gap: 2px;">
-          <li><a href="#home-de" onClick="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 52px; font-family: var(--font-heading); font-size: 21px; text-decoration: none; color: var(--color-text); border-bottom: 1px solid var(--color-divider);">Start</a></li>
-          <li><a href="#cakes-de" onClick="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 52px; font-family: var(--font-heading); font-size: 21px; text-decoration: none; color: var(--color-text); border-bottom: 1px solid var(--color-divider);">Torten</a></li>
-          <li><a href="#baker-de" onClick="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 52px; font-family: var(--font-heading); font-size: 21px; text-decoration: none; color: var(--color-text); border-bottom: 1px solid var(--color-divider);">Die Bäckerin</a></li>
-          <li><a href="#gallery-de" onClick="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 52px; font-family: var(--font-heading); font-size: 21px; text-decoration: none; color: var(--color-text); border-bottom: 1px solid var(--color-divider);">Galerie</a></li>
-          <li><a href="#about-de" onClick="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 52px; font-family: var(--font-heading); font-size: 21px; text-decoration: none; color: var(--color-text); border-bottom: 1px solid var(--color-divider);">Über uns</a></li>
-          <li><a href="#faq-de" onClick="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 52px; font-family: var(--font-heading); font-size: 21px; text-decoration: none; color: var(--color-text); border-bottom: 1px solid var(--color-divider);">FAQ</a></li>
-          <li><a href="#contact-de" onClick="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 52px; font-family: var(--font-heading); font-size: 21px; text-decoration: none; color: var(--color-text); border-bottom: 1px solid var(--color-divider);">Kontakt</a></li>
-        </ul>
-        <div style="display: grid; gap: var(--space-2);">
-          <a class="btn btn-primary" href="{{ waHref }}" target="_blank" rel="noopener" style="min-height: 52px; font-size: 15px;">Jetzt bestellen</a>
-          <a class="btn btn-secondary" href="#cakes-de" onClick="{{ closeMenu }}" style="min-height: 52px; font-size: 15px;">Kollektion ansehen</a>
-        </div>
+        <p class="hero-note">Vegan options on request — please mention it when you order, as not all cakes are vegan.</p>
       </div>
-    </sc-if>
-  </header>
-
-  <main id="main-de">
-    <section id="home-de" aria-labelledby="hero-title-de" style="position: relative; padding: clamp(28px, 5vw, 56px) clamp(16px, 4vw, 40px) clamp(48px, 7vw, 88px); max-width: 1240px; margin: 0 auto;">
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: clamp(28px, 5vw, 64px); align-items: center;">
-        <div style="animation: ss-rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;">
-          <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-3);">Patisserie · Berlin</p>
-          <h1 id="hero-title-de" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(40px, 8vw, 78px); line-height: 1.02; letter-spacing: -0.02em; margin: 0 0 var(--space-4); text-wrap: balance;">Torten, für die man<br><em style="font-style: italic; color: var(--color-accent-700);">sitzen bleibt.</em></h1>
-          <p style="font-size: clamp(16px, 2.1vw, 18px); line-height: 1.65; max-width: 46ch; margin: 0 0 var(--space-6); color: color-mix(in srgb, var(--color-text) 82%, transparent); text-wrap: pretty;">Eine Backstube mit zwei Öfen in Berlin, geführt von Konditorin Neethu. Alles wird am Morgen der Abholung gebacken — Butter, Sahne, Obst der Saison und nichts, was wir nicht aussprechen können. Erzählen Sie uns vom Anlass, wir backen dafür.</p>
-          <div style="display: flex; flex-wrap: wrap; gap: var(--space-3); margin-bottom: var(--space-6);">
-            <a class="btn btn-primary" href="{{ waHref }}" target="_blank" rel="noopener" style="min-height: 52px; padding-inline: var(--space-6); font-size: 15px; transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), background 0.2s;" style-hover="transform: translateY(-2px);" style-active="transform: translateY(1px) scale(0.99);">Jetzt bestellen</a>
-            <a class="btn btn-secondary" href="#cakes-de" style="min-height: 52px; padding-inline: var(--space-6); font-size: 15px; transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), background 0.2s;" style-hover="transform: translateY(-2px);" style-active="transform: translateY(1px) scale(0.99);">Kollektion ansehen</a>
-          </div>
-          <dl style="display: flex; flex-wrap: wrap; gap: var(--space-6) clamp(20px, 4vw, 44px); margin: 0; padding-top: var(--space-4); border-top: 1px solid var(--color-divider);">
-            <div><dt style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 4px;">Anlasstorten</dt><dd style="margin: 0; font-family: var(--font-heading); font-size: 26px; font-feature-settings: 'tnum';">ab 90 €</dd></div>
-            <div><dt style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 4px;">Ganz individuell</dt><dd style="margin: 0; font-family: var(--font-heading); font-size: 26px; font-feature-settings: 'tnum';">ab 150 €</dd></div>
-            <div><dt style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 4px;">Gebacken</dt><dd style="margin: 0; font-family: var(--font-heading); font-size: 26px;">auf Bestellung</dd></div>
-          </dl>
-        </div>
-        <figure style="position: relative; animation: ss-fade 1.1s ease both;">
-          <img class="plate" src="pics/IMG_4438.PNG" alt="Hohe Torte mit handgemalter, pastellfarbener Buttercreme und Zuckerblüten auf einem rosa Tortenständer." width="1100" height="1375" fetchpriority="high" decoding="async" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
-          <figcaption style="margin-top: var(--space-2); font-size: 11px; letter-spacing: 0.04em;">Handgemalte Buttercreme in Pastelltönen — eine unserer beliebtesten Anlasstorten.</figcaption>
-          <img src="pics/IMG_6603.JPG" alt="" aria-hidden="true" width="340" height="340" loading="lazy" decoding="async" style="position: absolute; left: -6%; bottom: 14%; width: clamp(78px, 12vw, 132px); aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 5px solid var(--color-bg); box-shadow: var(--shadow-md); animation: ss-float 7s ease-in-out infinite; will-change: transform;">
-          <img src="pics/IMG_6816.JPG" alt="" aria-hidden="true" width="300" height="300" loading="lazy" decoding="async" style="position: absolute; right: -4%; top: -5%; width: clamp(62px, 9vw, 104px); aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 5px solid var(--color-bg); box-shadow: var(--shadow-sm); animation: ss-float2 9s ease-in-out infinite; will-change: transform;">
-        </figure>
-      </div>
-    </section>
-
-    <section id="cakes-de" aria-labelledby="cakes-title-de" style="padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px); max-width: 1240px; margin: 0 auto; border-top: 1px solid var(--color-divider);">
-      <div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: var(--space-4); margin-bottom: clamp(28px, 4vw, 52px);">
-        <div>
-          <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">01 — Die Kollektion</p>
-          <h2 id="cakes-title-de" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(32px, 5.4vw, 54px); line-height: 1.05; margin: 0; letter-spacing: -0.02em;">Unsere Torten</h2>
-        </div>
-        <p style="max-width: 42ch; margin: 0; font-size: 15px; line-height: 1.7; color: color-mix(in srgb, var(--color-text) 75%, transparent); text-wrap: pretty;">Sechs Torten, die wir das ganze Jahr backen. Jede gibt es von sechs bis vierzig Portionen — und jede kann der Anfang von etwas Eigenem sein.</p>
-      </div>
-      <ul style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: clamp(20px, 3vw, 36px);">
-        <li style="display: flex; flex-direction: column;">
-          <figure style="margin: 0; overflow: hidden; border-radius: var(--radius-lg);">
-            <img class="plate" src="pics/IMG_6485.JPG" alt="Torte mit handgemalter Blumen-Buttercreme, gekrönt von einer rosa Pfingstrose." width="700" height="700" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: scale(1.04);">
-          </figure>
-          <div style="padding: var(--space-3) 0 0;">
-            <div style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); border-bottom: 1px solid var(--color-divider); padding-bottom: var(--space-2);">
-              <h3 style="font-family: var(--font-heading); font-weight: 400; font-size: 23px; margin: 0;">Dunkle Ganache-Torte</h3>
-              <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum';">90 €</span>
-            </div>
-            <p style="margin: var(--space-2) 0 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Valrhona-Ganache auf Schokoladenbiskuit, Schattenmorellen in Kirschwasser.</p>
-          </div>
-        </li>
-        <li style="display: flex; flex-direction: column;">
-          <figure style="margin: 0; overflow: hidden; border-radius: var(--radius-lg);">
-            <img class="plate" src="pics/IMG_6553.JPG" alt="Schlichte weiße Torte mit frischen Himbeeren, Blaubeeren und feiner Linienzeichnung." width="700" height="700" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: scale(1.04);">
-          </figure>
-          <div style="padding: var(--space-3) 0 0;">
-            <div style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); border-bottom: 1px solid var(--color-divider); padding-bottom: var(--space-2);">
-              <h3 style="font-family: var(--font-heading); font-weight: 400; font-size: 23px; margin: 0;">Beerenwolke</h3>
-              <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum';">95 €</span>
-            </div>
-            <p style="margin: var(--space-2) 0 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Vanillebiskuit, Mascarponecreme und was die Brandenburger Höfe gerade pflücken.</p>
-          </div>
-        </li>
-        <li style="display: flex; flex-direction: column;">
-          <figure style="margin: 0; overflow: hidden; border-radius: var(--radius-lg);">
-            <img class="plate" src="pics/IMG_6552.JPG" alt="Cheesecake mit Beeren und Zuckerrosen, beschriftet mit „Feliz Aniversário“." width="700" height="700" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: scale(1.04);">
-          </figure>
-          <div style="padding: var(--space-3) 0 0;">
-            <div style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); border-bottom: 1px solid var(--color-divider); padding-bottom: var(--space-2);">
-              <h3 style="font-family: var(--font-heading); font-weight: 400; font-size: 23px; margin: 0;">Gebackener Vanille-Cheesecake</h3>
-              <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum';">90 €</span>
-            </div>
-            <p style="margin: var(--space-2) 0 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Zwei Stunden langsam gebacken, über Nacht geruht. Bourbon-Vanille, ein Hauch Zitronenschale.</p>
-          </div>
-        </li>
-        <li style="display: flex; flex-direction: column;">
-          <figure style="margin: 0; overflow: hidden; border-radius: var(--radius-lg);">
-            <img class="plate" src="pics/IMG_6810.JPG" alt="Hohe Geburtstagstorte mit Fondant-Luftballons und einem gemalten Mädchen, „Alexa is two“." width="700" height="700" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: scale(1.04);">
-          </figure>
-          <div style="padding: var(--space-3) 0 0;">
-            <div style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); border-bottom: 1px solid var(--color-divider); padding-bottom: var(--space-2);">
-              <h3 style="font-family: var(--font-heading); font-weight: 400; font-size: 23px; margin: 0;">Die Geburtstagstorte</h3>
-              <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum';">90 €</span>
-            </div>
-            <p style="margin: var(--space-2) 0 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Konfettibiskuit und Erdbeer-Buttercreme. Kerzen inklusive, das Singen übernehmen Sie.</p>
-          </div>
-        </li>
-        <li style="display: flex; flex-direction: column;">
-          <figure style="margin: 0; overflow: hidden; border-radius: var(--radius-lg);">
-            <img class="plate" src="pics/IMG_6523.JPG" alt="Dreistöckige weiße Hochzeitstorte mit rosa Waffelblüten und Blattgold." width="700" height="700" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: scale(1.04);">
-          </figure>
-          <div style="padding: var(--space-3) 0 0;">
-            <div style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); border-bottom: 1px solid var(--color-divider); padding-bottom: var(--space-2);">
-              <h3 style="font-family: var(--font-heading); font-weight: 400; font-size: 23px; margin: 0;">Hochzeitstorte, zwei Etagen</h3>
-              <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum';">ab 150 €</span>
-            </div>
-            <p style="margin: var(--space-2) 0 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Holunderblüte und Zitrone, mit Feigen und Brombeeren angerichtet. Mit Ihnen entworfen, vorher probiert.</p>
-          </div>
-        </li>
-        <li style="display: flex; flex-direction: column;">
-          <figure style="margin: 0; overflow: hidden; border-radius: var(--radius-lg);">
-            <img class="plate" src="pics/IMG_6594.JPG" alt="Torte zum ersten Geburtstag mit lächelnder Sonne, Gänseblümchen und Fondant-Bienen." width="700" height="700" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: scale(1.04);">
-          </figure>
-          <div style="padding: var(--space-3) 0 0;">
-            <div style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); border-bottom: 1px solid var(--color-divider); padding-bottom: var(--space-2);">
-              <h3 style="font-family: var(--font-heading); font-weight: 400; font-size: 23px; margin: 0;">Cupcakes im Dutzend</h3>
-              <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum';">42 €</span>
-            </div>
-            <p style="margin: var(--space-2) 0 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Für Büros, Taufen und alles, wo ein Messer unpassend wäre.</p>
-          </div>
-        </li>
-      </ul>
-    </section>
-
-    <section id="seasonal-de" aria-labelledby="seasonal-title-de" style="background: var(--color-surface); border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
-      <div style="max-width: 1240px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px); display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: clamp(28px, 5vw, 64px); align-items: center;">
-        <figure style="margin: 0;">
-          <img class="plate" src="pics/IMG_6503.JPG" alt="Schokoladentorte in Form eines Vogelnests mit drei Fondant-Vögeln." width="900" height="700" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 5 / 4; object-fit: cover; border-radius: var(--radius-lg); box-shadow: var(--shadow-sm);">
-          <figcaption style="margin-top: var(--space-2); font-size: 11px;">Themen- und Figurentorten nach Ihren Wünschen gestaltet.</figcaption>
-        </figure>
-        <div>
-          <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">02 — Saisonales</p>
-          <h2 id="seasonal-title-de" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 var(--space-4); letter-spacing: -0.02em;">Was diesen Monat gut ist</h2>
-          <p style="font-size: 16px; line-height: 1.7; margin: 0 0 var(--space-4); color: color-mix(in srgb, var(--color-text) 82%, transparent); max-width: 48ch; text-wrap: pretty;">Die Saisontafel ändert sich, wenn sich der Markt ändert — meist alle drei bis vier Wochen. Wenn Sie etwas davon möchten, bestellen Sie früh: wir backen eine feste Anzahl und hören dann auf.</p>
-          <ul style="list-style: none; margin: 0 0 var(--space-6); padding: 0; display: grid; gap: 0;">
-            <li style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-3); padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);">
-              <span><strong style="font-family: var(--font-heading); font-weight: 600; font-size: 17px;">Erdbeer-Holunderblüten-Torte</strong><br><span style="font-size: 13px; color: color-mix(in srgb, var(--color-text) 70%, transparent);">Bis Anfang August</span></span>
-              <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum'; white-space: nowrap;">92 €</span>
-            </li>
-            <li style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-3); padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);">
-              <span><strong style="font-family: var(--font-heading); font-weight: 600; font-size: 17px;">Aprikosen-Mandel-Frangipane-Tarte</strong><br><span style="font-size: 13px; color: color-mix(in srgb, var(--color-text) 70%, transparent);">Nur am Wochenende</span></span>
-              <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum'; white-space: nowrap;">38 €</span>
-            </li>
-            <li style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-3); padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);">
-              <span><strong style="font-family: var(--font-heading); font-weight: 600; font-size: 17px;">Sauerkirsch-Streuselkuchen</strong><br><span style="font-size: 13px; color: color-mix(in srgb, var(--color-text) 70%, transparent);">Solange es Kirschen gibt</span></span>
-              <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum'; white-space: nowrap;">34 €</span>
-            </li>
-          </ul>
-          <a class="btn btn-primary" href="{{ waHref }}" target="_blank" rel="noopener" style="min-height: 48px; padding-inline: var(--space-6); transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: translateY(-2px);">Saisontafel reservieren</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="baker-de" aria-labelledby="baker-title-de" style="border-top: 1px solid var(--color-divider); background: linear-gradient(180deg, var(--color-bg), var(--color-neutral-100));">
-      <div style="max-width: 1240px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px); display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: clamp(28px, 5vw, 64px); align-items: center;">
-        <div>
-          <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">03 — Die Bäckerin</p>
-          <h2 id="baker-title-de" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 var(--space-4); letter-spacing: -0.02em;">Hallo, ich bin Neethu</h2>
-          <blockquote style="margin: 0 0 var(--space-4); padding-left: var(--space-4); border-left: 1px solid var(--color-accent); font-family: var(--font-heading); font-size: clamp(21px, 2.8vw, 28px); line-height: 1.3; font-style: italic;">„Ich backe keine Torten. Ich backe den Moment, in dem am Tisch alle kurz still werden.“</blockquote>
-          <p style="font-size: 16px; line-height: 1.75; margin: 0 0 var(--space-3); color: color-mix(in srgb, var(--color-text) 85%, transparent); text-wrap: pretty;">Ich bin Konditorin, Chefin und die Person, die morgens um halb sechs das Licht in der Backstube anmacht. Angefangen habe ich, weil mich der Duft von warmer Butter glücklich macht. Weitergemacht habe ich, weil dieses „Oh!“, wenn die Torte auf den Tisch kommt, für mich nie alt wird.</p>
-          <p style="font-size: 16px; line-height: 1.75; margin: 0 0 var(--space-3); color: color-mix(in srgb, var(--color-text) 85%, transparent); text-wrap: pretty;">Jede Torte, die diese Backstube verlässt, hatte ich in der Hand. Ich wiege selbst ab, ich schmecke selbst ab — und wenn etwas nicht so schön ist, wie Ihr Anlass es verdient, fange ich neu an. Sorgfalt ist hier keine Marketingzeile, sondern der Grund, warum ich zu wenig schlafe und trotzdem gerne aufstehe.</p>
-          <p style="font-size: 16px; line-height: 1.75; margin: 0 0 var(--space-4); color: color-mix(in srgb, var(--color-text) 85%, transparent); text-wrap: pretty;">Sagen Sie mir, wen wir feiern — und ich backe etwas, das nach dieser Person schmeckt.</p>
-          <p style="margin: 0 0 var(--space-6); font-family: var(--font-heading); font-size: 17px; font-style: italic; color: var(--color-accent-700);">— Neethu, Konditorin &amp; Gründerin von Silver Spoon</p>
-          <ul style="list-style: none; margin: 0; padding: var(--space-4) 0 0; border-top: 1px solid var(--color-divider); display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-4);">
-            <li><span style="display: block; font-family: var(--font-heading); font-size: 22px; font-feature-settings: 'tnum';">05:30</span><span style="font-size: 12px; color: color-mix(in srgb, var(--color-text) 62%, transparent);">Uhr geht das Licht an</span></li>
-            <li><span style="display: block; font-family: var(--font-heading); font-size: 22px;">Alles</span><span style="font-size: 12px; color: color-mix(in srgb, var(--color-text) 62%, transparent);">von zwei Händen dekoriert</span></li>
-            <li><span style="display: block; font-family: var(--font-heading); font-size: 22px;">Keine</span><span style="font-size: 12px; color: color-mix(in srgb, var(--color-text) 62%, transparent);">Fertigmischung, nie</span></li>
-          </ul>
-        </div>
-        <figure style="margin: 0;">
-          <img class="plate" src="pics/IMG_6512.JPG" alt="Hohe Torte mit Berglandschaft, Wohnwagen und schneebedeckten Gipfeln aus Fondant." width="900" height="1125" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
-          <figcaption style="margin-top: var(--space-2); font-size: 11px;">Eine unserer maßgefertigten Motivtorten aus der Backstube.</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section id="bestsellers-de" aria-labelledby="best-title-de" style="border-top: 1px solid var(--color-divider); padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px); max-width: 1240px; margin: 0 auto;">
-      <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">04 — Bestseller</p>
-      <h2 id="best-title-de" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 clamp(24px, 4vw, 44px); letter-spacing: -0.02em;">Am häufigsten bestellt</h2>
-      <ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: clamp(18px, 2.6vw, 32px);">
-        <li style="display: flex; flex-direction: column; gap: var(--space-3);">
-          <img class="plate" src="pics/IMG_6808.JPG" alt="Zweistöckige Babyparty-Torte in Pastell mit Fondant-Luftballons und schlafendem Baby." width="600" height="750" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius-lg);">
-          <div style="display: flex; align-items: baseline; gap: var(--space-2);">
-            <span style="font-family: var(--font-heading); font-size: 13px; color: var(--color-accent); font-feature-settings: 'tnum';">01</span>
-            <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 18px; margin: 0;">Fudge-Brownies mit Meersalz</h3>
-          </div>
-          <p style="margin: 0; font-size: 13px; line-height: 1.6; color: color-mix(in srgb, var(--color-text) 72%, transparent);">Schachtel mit neun, 24 €. Samstags meist mittags ausverkauft.</p>
-        </li>
-        <li style="display: flex; flex-direction: column; gap: var(--space-3);">
-          <img class="plate" src="pics/IMG_6918.JPG" alt="Safari-Torte mit Fondant-Elefant, -Giraffe und -Zebra." width="600" height="750" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius-lg);">
-          <div style="display: flex; align-items: baseline; gap: var(--space-2);">
-            <span style="font-family: var(--font-heading); font-size: 13px; color: var(--color-accent); font-feature-settings: 'tnum';">02</span>
-            <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 18px; margin: 0;">Macarons, zwölf Sorten</h3>
-          </div>
-          <p style="margin: 0; font-size: 13px; line-height: 1.6; color: color-mix(in srgb, var(--color-text) 72%, transparent);">Schachtel mit zwölf, 28 €. Pistazie und gesalzenes Karamell gehen zuerst.</p>
-        </li>
-        <li style="display: flex; flex-direction: column; gap: var(--space-3);">
-          <img class="plate" src="pics/IMG_6913.JPG" alt="Rote Paw-Patrol-Torte mit Marshall-Figur und der Zahl Drei." width="600" height="750" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius-lg);">
-          <div style="display: flex; align-items: baseline; gap: var(--space-2);">
-            <span style="font-family: var(--font-heading); font-size: 13px; color: var(--color-accent); font-feature-settings: 'tnum';">03</span>
-            <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 18px; margin: 0;">Beeren-Tartelettes</h3>
-          </div>
-          <p style="margin: 0; font-size: 13px; line-height: 1.6; color: color-mix(in srgb, var(--color-text) 72%, transparent);">6 € pro Stück. Crème pâtissière, Butterteig, frisch belegt.</p>
-        </li>
-        <li style="display: flex; flex-direction: column; gap: var(--space-3);">
-          <img class="plate" src="pics/IMG_6911.JPG" alt="Blaue „Super Dad“-Torte mit Fondant-Figuren und Einhorn." width="600" height="750" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius-lg);">
-          <div style="display: flex; align-items: baseline; gap: var(--space-2);">
-            <span style="font-family: var(--font-heading); font-size: 13px; color: var(--color-accent); font-feature-settings: 'tnum';">04</span>
-            <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 18px; margin: 0;">Kaffeecreme-Torte</h3>
-          </div>
-          <p style="margin: 0; font-size: 13px; line-height: 1.6; color: color-mix(in srgb, var(--color-text) 72%, transparent);">90 €. Acht Schichten, Espresso aus Kreuzberg, nicht süß.</p>
-        </li>
-      </ol>
-    </section>
-
-    <section id="why-de" aria-labelledby="why-title-de" style="border-top: 1px solid var(--color-divider); background: linear-gradient(180deg, var(--color-neutral-100), var(--color-bg));">
-      <div style="max-width: 1240px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px);">
-        <div style="max-width: 52ch; margin-bottom: clamp(28px, 4vw, 52px);">
-          <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">05 — Warum Silver Spoon</p>
-          <h2 id="why-title-de" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 var(--space-3); letter-spacing: -0.02em;">Vier Versprechen, still gehalten</h2>
-          <p style="margin: 0; font-size: 16px; line-height: 1.7; color: color-mix(in srgb, var(--color-text) 80%, transparent); text-wrap: pretty;">Keine Kühlvitrine, keine Abkürzungen, kein Kuchen, der seit Dienstag im Regal steht.</p>
-        </div>
-        <ul style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: clamp(20px, 3vw, 32px);">
-          <li class="card elev-sm" style="background: color-mix(in srgb, var(--color-bg) 70%, transparent); backdrop-filter: blur(8px); border-radius: var(--radius-lg); padding: var(--space-4);">
-            <span aria-hidden="true" style="font-family: var(--font-heading); font-size: 12px; letter-spacing: 0.1em; color: var(--color-accent);">I</span>
-            <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 19px; margin: 0;">Am Morgen Ihrer Abholung gebacken</h3>
-            <p style="margin: 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Jede Bestellung wird von Ihrer Abholzeit rückwärts geplant. Nichts wird eingefroren, nichts aufgetaut.</p>
-          </li>
-          <li class="card elev-sm" style="background: color-mix(in srgb, var(--color-bg) 70%, transparent); backdrop-filter: blur(8px); border-radius: var(--radius-lg); padding: var(--space-4);">
-            <span aria-hidden="true" style="font-family: var(--font-heading); font-size: 12px; letter-spacing: 0.1em; color: var(--color-accent);">II</span>
-            <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 19px; margin: 0;">Zutaten mit Adresse</h3>
-            <p style="margin: 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Butter und Sahne von Brandenburger Molkereien, Obst von den Beelitzer Höfen, Schokolade aus einem einzigen Valrhona-Haus.</p>
-          </li>
-          <li class="card elev-sm" style="background: color-mix(in srgb, var(--color-bg) 70%, transparent); backdrop-filter: blur(8px); border-radius: var(--radius-lg); padding: var(--space-4);">
-            <span aria-hidden="true" style="font-family: var(--font-heading); font-size: 12px; letter-spacing: 0.1em; color: var(--color-accent);">III</span>
-            <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 19px; margin: 0;">Eine Bäckerin, ein Gespräch</h3>
-            <p style="margin: 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Sie sprechen mit Neethu — der Person, die den Spritzbeutel hält. Skizzen, Verkostungen und zweite Gedanken gehören dazu.</p>
-          </li>
-          <li class="card elev-sm" style="background: color-mix(in srgb, var(--color-bg) 70%, transparent); backdrop-filter: blur(8px); border-radius: var(--radius-lg); padding: var(--space-4);">
-            <span aria-hidden="true" style="font-family: var(--font-heading); font-size: 12px; letter-spacing: 0.1em; color: var(--color-accent);">IV</span>
-            <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 19px; margin: 0;">Ehrlich bei Allergenen</h3>
-            <p style="margin: 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Vegane und glutenfreie Biskuits stehen auf der Karte — und wir sagen Ihnen immer, was unsere Backstube nicht versprechen kann.</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="gallery-de" aria-labelledby="gallery-title-de" style="border-top: 1px solid var(--color-divider); padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px); max-width: 1240px; margin: 0 auto;">
-      <div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: var(--space-4); margin-bottom: clamp(24px, 4vw, 44px);">
-        <div>
-          <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">06 — Galerie</p>
-          <h2 id="gallery-title-de" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0; letter-spacing: -0.02em;">Aus der Backstube</h2>
-        </div>
-        <p style="margin: 0; max-width: 34ch; font-size: 14px; line-height: 1.7; color: color-mix(in srgb, var(--color-text) 72%, transparent);">Torten für Berliner Geburtstage, Hochzeiten und ganz gewöhnliche Donnerstage.</p>
-      </div>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: clamp(10px, 1.6vw, 18px);">
-        <figure style="grid-column: span 2; margin: 0;"><img class="plate" src="pics/IMG_6908.JPG" alt="Sonic-Geburtstagstorte in Blau mit Sonic- und Tails-Figuren, „Vedanth“." width="900" height="600" loading="lazy" decoding="async" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: var(--radius-lg);"></figure>
-        <figure style="margin: 0;"><img class="plate" src="pics/IMG_6591.JPG" alt="Schwarze Monstertruck-Torte mit Flammen und Rennflagge, „Happy 4th Birthday“." width="600" height="600" loading="lazy" decoding="async" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: var(--radius-lg);"></figure>
-        <figure style="margin: 0;"><img class="plate" src="pics/IMG_6602.JPG" alt="Torte zum ersten Geburtstag mit Sonne, Gänseblümchen und Bienen, „Olivia“." width="600" height="600" loading="lazy" decoding="async" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: var(--radius-lg);"></figure>
-        <figure style="margin: 0;"><img class="plate" src="pics/IMG_6489.JPG" alt="„Happy Birthday Husband“-Torte im Scrabble-Stil mit roten Herzen und schwarzer Schleife." width="600" height="600" loading="lazy" decoding="async" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: var(--radius-lg);"></figure>
-        <figure style="grid-column: span 2; margin: 0;"><img class="plate" src="pics/IMG_6540.JPG" alt="Verspielte Geburtstagstorte mit einer Fondant-Figur und Schriftzug „Happy B-Day“." width="900" height="600" loading="lazy" decoding="async" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: var(--radius-lg);"></figure>
-        <figure style="margin: 0;"><img class="plate" src="pics/IMG_6516.JPG" alt="Bento-Törtchen „Happy Birthday Husband“ in einer Box mit roten Herzen." width="600" height="600" loading="lazy" decoding="async" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: var(--radius-lg);"></figure>
-      </div>
-    </section>
-
-    <section id="testimonials-de" aria-labelledby="test-title-de" style="background: var(--color-surface); border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
-      <div style="max-width: 1240px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px);">
-        <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">07 — Stimmen</p>
-        <h2 id="test-title-de" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 clamp(26px, 4vw, 48px); letter-spacing: -0.02em;">Was unsere Kundschaft sagt</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: clamp(20px, 3vw, 40px);">
-          <figure style="margin: 0; padding-left: var(--space-4); border-left: 1px solid var(--color-accent);">
-            <blockquote style="margin: 0 0 var(--space-3); font-family: var(--font-heading); font-size: clamp(19px, 2.4vw, 23px); line-height: 1.35; font-style: italic;">„Unsere Hochzeitstorte kam mitten in einer Hitzewelle und sah genau wie die Skizze aus. Drei Gäste fragten noch vor den Reden nach dem Namen der Backstube.“</blockquote>
-            <figcaption style="font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 60%, transparent);">Marlene &amp; Jonas — Prenzlauer Berg <span class="text-muted" style="text-transform: none; letter-spacing: 0;">(Platzhalter)</span></figcaption>
-          </figure>
-          <figure style="margin: 0; padding-left: var(--space-4); border-left: 1px solid var(--color-accent);">
-            <blockquote style="margin: 0 0 var(--space-3); font-family: var(--font-heading); font-size: clamp(19px, 2.4vw, 23px); line-height: 1.35; font-style: italic;">„Ich habe eine glutenfreie Geburtstagstorte für meine Tochter bestellt und eine richtige Torte bekommen, keinen Kompromiss. Sie hat sie sich schon wieder gewünscht.“</blockquote>
-            <figcaption style="font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 60%, transparent);">Amara O. — Neukölln <span class="text-muted" style="text-transform: none; letter-spacing: 0;">(Platzhalter)</span></figcaption>
-          </figure>
-          <figure style="margin: 0; padding-left: var(--space-4); border-left: 1px solid var(--color-accent);">
-            <blockquote style="margin: 0 0 var(--space-3); font-family: var(--font-heading); font-size: clamp(19px, 2.4vw, 23px); line-height: 1.35; font-style: italic;">„Wir bestellen Cupcakes für jeden Studio-Launch. Sie sind immer pünktlich, und das Team streitet sich um die Kaffee-Variante.“</blockquote>
-            <figcaption style="font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 60%, transparent);">Studio Halbmond — Mitte <span class="text-muted" style="text-transform: none; letter-spacing: 0;">(Platzhalter)</span></figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <section id="about-de" aria-labelledby="about-title-de" style="max-width: 1240px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px);">
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: clamp(28px, 5vw, 64px); align-items: start;">
-        <div>
-          <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">08 — Über uns</p>
-          <h2 id="about-title-de" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 var(--space-4); letter-spacing: -0.02em;">Silver Spoon UG, Berlin</h2>
-          <p style="text-align: justify; hyphens: auto; font-size: 16px; line-height: 1.75; margin: 0 0 var(--space-3);">Silver Spoon begann 2019 mit einem Haushaltsofen, einem Marktstand und Neethus hartnäckiger Idee: dass eine Torte nach dem Obst und der Butter schmecken soll, aus denen sie gemacht ist — und dass man die Person kennenlernen können soll, die sie gebacken hat. Zwei Öfen und einige hundert Geburtstage später hat sich daran nichts geändert.</p>
-          <p style="text-align: justify; hyphens: auto; font-size: 16px; line-height: 1.75; margin: 0 0 var(--space-3);">Wir sind bewusst klein. Eine einzige Backstube in Berlin nimmt pro Woche nur eine begrenzte Zahl an Bestellungen an — deshalb bitten wir um Vorlauf, und deshalb können wir uns mit Ihnen noch über ein Skizzenbuch beugen. Hochzeitspaare kommen samstags zur Verkostung; der Rest der Woche gehört Geburtstagen, Taufen, Abschieden und der gelegentlichen Entschuldigungstorte.</p>
-          <p style="text-align: justify; hyphens: auto; font-size: 16px; line-height: 1.75; margin: 0 0 var(--space-6);">Eingetragen als Silver Spoon UG in Berlin, Deutschland. Alles, was wir verkaufen, wird in unserer eigenen Backstube gebacken — nichts wird zugekauft und neu dekoriert.</p>
-          <dl style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-4); margin: 0; padding-top: var(--space-4); border-top: 1px solid var(--color-divider);">
-            <div><dt style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 4px;">Gegründet</dt><dd style="margin: 0; font-family: var(--font-heading); font-size: 22px; font-feature-settings: 'tnum';">2019</dd></div>
-            <div><dt style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 4px;">Torten pro Woche</dt><dd style="margin: 0; font-family: var(--font-heading); font-size: 22px; font-feature-settings: 'tnum';">max. 24</dd></div>
-            <div><dt style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 4px;">Hochzeiten 2025</dt><dd style="margin: 0; font-family: var(--font-heading); font-size: 22px; font-feature-settings: 'tnum';">38</dd></div>
-          </dl>
-        </div>
-        <figure style="margin: 0;">
-          <img class="plate" src="pics/IMG_6486.JPG" alt="Winterliche Torte mit Ski-Motiv, Schneeflocken und einer kleinen Skifahrer-Figur." width="800" height="800" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); box-shadow: var(--shadow-sm);">
-          <figcaption style="margin-top: var(--space-2); font-size: 11px;">Jede Torte wird von Hand modelliert und dekoriert.</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section id="faq-de" aria-labelledby="faq-title-de" style="border-top: 1px solid var(--color-divider); background: var(--color-neutral-100);">
-      <div style="max-width: 900px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px);">
-        <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">09 — FAQ</p>
-        <h2 id="faq-title-de" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 clamp(24px, 4vw, 40px); letter-spacing: -0.02em;">Häufige Fragen</h2>
-        <div style="display: grid; gap: 0;">
-          <details style="border-top: 1px solid var(--color-divider);">
-            <summary style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 60px; padding: var(--space-3) 0; font-family: var(--font-heading); font-size: clamp(18px, 2.3vw, 21px);" style-hover="color: var(--color-accent-700);"><span>Wie lange im Voraus sollte ich eine individuelle Torte bestellen?</span><span aria-hidden="true" style="flex: none; color: var(--color-accent); font-size: 20px;">+</span></summary>
-            <p style="margin: 0 0 var(--space-4); max-width: 62ch; font-size: 15px; line-height: 1.75; color: color-mix(in srgb, var(--color-text) 82%, transparent);">Zwei Wochen sind für eine individuelle Anlasstorte angenehm, vier bis sechs Wochen für eine Hochzeitstorte. Kleine Kuchen und Gebäckschachteln lassen sich oft mit fünf Tagen Vorlauf backen — schreiben Sie uns, wir sagen Ihnen ehrlich, was noch möglich ist.</p>
-          </details>
-          <details style="border-top: 1px solid var(--color-divider);">
-            <summary style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 60px; padding: var(--space-3) 0; font-family: var(--font-heading); font-size: clamp(18px, 2.3vw, 21px);" style-hover="color: var(--color-accent-700);"><span>Was kostet eine Torte?</span><span aria-hidden="true" style="flex: none; color: var(--color-accent); font-size: 20px;">+</span></summary>
-            <p style="margin: 0 0 var(--space-4); max-width: 62ch; font-size: 15px; line-height: 1.75; color: color-mix(in srgb, var(--color-text) 82%, transparent);">Geburtstags- und Eventtorten beginnen bei 90 €. Ganz individuelle Torten beginnen bei 150 € und steigen mit Etagen, Finish und Dekoration. Sie erhalten immer ein schriftliches Angebot, bevor wir beginnen — mit 30 % Anzahlung, um den Termin zu halten.</p>
-          </details>
-          <details style="border-top: 1px solid var(--color-divider);">
-            <summary style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 60px; padding: var(--space-3) 0; font-family: var(--font-heading); font-size: clamp(18px, 2.3vw, 21px);" style-hover="color: var(--color-accent-700);"><span>Wer backt meine Torte?</span><span aria-hidden="true" style="flex: none; color: var(--color-accent); font-size: 20px;">+</span></summary>
-            <p style="margin: 0 0 var(--space-4); max-width: 62ch; font-size: 15px; line-height: 1.75; color: color-mix(in srgb, var(--color-text) 82%, transparent);">Neethu — Konditorin und Gründerin von Silver Spoon. Sie backt und dekoriert jede Torte selbst in der Berliner Backstube, und Sie sprechen von der ersten Skizze bis zur Abholung mit derselben Person.</p>
-          </details>
-          <details style="border-top: 1px solid var(--color-divider);">
-            <summary style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 60px; padding: var(--space-3) 0; font-family: var(--font-heading); font-size: clamp(18px, 2.3vw, 21px);" style-hover="color: var(--color-accent-700);"><span>Bieten Sie Verkostungen für Hochzeitstorten an?</span><span aria-hidden="true" style="flex: none; color: var(--color-accent); font-size: 20px;">+</span></summary>
-            <p style="margin: 0 0 var(--space-4); max-width: 62ch; font-size: 15px; line-height: 1.75; color: color-mix(in srgb, var(--color-text) 82%, transparent);">Ja. Verkostungen finden samstags in unserer Berliner Backstube statt: sechs Biskuits, sechs Füllungen und ein langes Gespräch über Ihren Tag. Die Gebühr wird bei einer Bestellung angerechnet.</p>
-          </details>
-          <details style="border-top: 1px solid var(--color-divider);">
-            <summary style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 60px; padding: var(--space-3) 0; font-family: var(--font-heading); font-size: clamp(18px, 2.3vw, 21px);" style-hover="color: var(--color-accent-700);"><span>Backen Sie vegane oder glutenfreie Torten?</span><span aria-hidden="true" style="flex: none; color: var(--color-accent); font-size: 20px;">+</span></summary>
-            <p style="margin: 0 0 var(--space-4); max-width: 62ch; font-size: 15px; line-height: 1.75; color: color-mix(in srgb, var(--color-text) 82%, transparent);">Ja — vegane Biskuits und Buttercremes sowie glutenfreie Biskuits auf Mandel- und Reismehl. In unserer Backstube werden auch Weizen, Ei, Milch und Nüsse verarbeitet; eine spurenfreie Umgebung können wir nicht versprechen. Bitte nennen Sie schwere Allergien bei der Anfrage — wir sagen Ihnen offen, wie hoch das Risiko ist.</p>
-          </details>
-          <details style="border-top: 1px solid var(--color-divider);">
-            <summary style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 60px; padding: var(--space-3) 0; font-family: var(--font-heading); font-size: clamp(18px, 2.3vw, 21px);" style-hover="color: var(--color-accent-700);"><span>Was passiert, wenn ich absagen muss?</span><span aria-hidden="true" style="flex: none; color: var(--color-accent); font-size: 20px;">+</span></summary>
-            <p style="margin: 0 0 var(--space-4); max-width: 62ch; font-size: 15px; line-height: 1.75; color: color-mix(in srgb, var(--color-text) 82%, transparent);">Bei einer Absage mehr als sieben Tage vor der Abholung erstatten wir die Anzahlung vollständig. Innerhalb von sieben Tagen deckt sie bereits gekaufte Zutaten und die für Sie reservierte Backzeit. Termine lassen sich einmal kostenfrei verschieben, sofern wir Kapazität haben.</p>
-          </details>
-          <details style="border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
-            <summary style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 60px; padding: var(--space-3) 0; font-family: var(--font-heading); font-size: clamp(18px, 2.3vw, 21px);" style-hover="color: var(--color-accent-700);"><span>Liefern Sie in Berlin?</span><span aria-hidden="true" style="flex: none; color: var(--color-accent); font-size: 20px;">+</span></summary>
-            <p style="margin: 0 0 var(--space-4); max-width: 62ch; font-size: 15px; line-height: 1.75; color: color-mix(in srgb, var(--color-text) 82%, transparent);">Wir liefern im gekühlten Auto in ganz Berlin für pauschal 25 €, oder Sie holen in der Backstube ab. Torten mit mehr als zwei Etagen liefern und bauen wir immer selbst auf — im Taxi reisen sie schlecht.</p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact-de" aria-labelledby="contact-title-de" style="border-top: 1px solid var(--color-divider); max-width: 1240px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px);">
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: clamp(28px, 5vw, 64px); align-items: start;">
-        <div>
-          <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">10 — Kontakt</p>
-          <h2 id="contact-title-de" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 var(--space-4); letter-spacing: -0.02em;">Erzählen Sie uns vom Anlass</h2>
-          <p style="font-size: 16px; line-height: 1.7; margin: 0 0 var(--space-6); max-width: 46ch; color: color-mix(in srgb, var(--color-text) 82%, transparent); text-wrap: pretty;">Am schnellsten erreichen Sie Neethu über WhatsApp — ein Foto Ihrer Idee sagt mehr als eine Seite Beschreibung. Wir antworten dienstags bis samstags, 10–18 Uhr.</p>
-          <address style="font-style: normal; display: grid; gap: var(--space-3); margin: 0 0 var(--space-6);">
-            <div style="display: flex; align-items: baseline; gap: var(--space-3); padding-bottom: var(--space-3); border-bottom: 1px solid var(--color-divider);">
-              <span style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); min-width: 92px;">Telefon</span>
-              <a href="tel:+49XXXXXXXXX" style="font-family: var(--font-heading); font-size: 20px; color: var(--color-text); text-decoration: none; font-feature-settings: 'tnum';" style-hover="color: var(--color-accent-700);">+49 XXX XXX XXXX</a>
-            </div>
-            <div style="display: flex; align-items: baseline; gap: var(--space-3); padding-bottom: var(--space-3); border-bottom: 1px solid var(--color-divider);">
-              <span style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); min-width: 92px;">E-Mail</span>
-              <a href="mailto:hello@silverspoon.de" style="font-family: var(--font-heading); font-size: 20px; color: var(--color-text); text-decoration: none;" style-hover="color: var(--color-accent-700);">hello@silverspoon.de</a>
-            </div>
-            <div style="display: flex; align-items: baseline; gap: var(--space-3); padding-bottom: var(--space-3); border-bottom: 1px solid var(--color-divider);">
-              <span style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); min-width: 92px;">Backstube</span>
-              <span style="font-family: var(--font-heading); font-size: 20px;">Berlin, Deutschland</span>
-            </div>
-            <div style="display: flex; align-items: baseline; gap: var(--space-3);">
-              <span style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); min-width: 92px;">Zeiten</span>
-              <span style="font-size: 15px; font-feature-settings: 'tnum';">Di–Sa, 10:00–18:00</span>
-            </div>
-          </address>
-          <a class="btn btn-primary" href="{{ waHref }}" target="_blank" rel="noopener" style="min-height: 52px; padding-inline: var(--space-6); font-size: 15px; transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: translateY(-2px);">WhatsApp schreiben</a>
-        </div>
-        <form onSubmit="{{ onSubmit }}" style="border: 1px solid var(--color-divider); border-radius: var(--radius-lg); padding: clamp(20px, 3vw, 32px); background: color-mix(in srgb, var(--color-neutral-100) 70%, transparent); box-shadow: var(--shadow-sm); display: grid; gap: var(--space-4);">
-          <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 20px; margin: 0;">Anfrage</h3>
-          <div class="field">
-            <label for="ss-name-de">Ihr Name</label>
-            <input class="input" id="ss-name-de" name="name" type="text" autocomplete="name" required style="min-height: 46px;">
-          </div>
-          <div class="field">
-            <label for="ss-email-de">E-Mail</label>
-            <input class="input" id="ss-email-de" name="email" type="email" autocomplete="email" required style="min-height: 46px;">
-          </div>
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: var(--space-3);">
-            <div class="field">
-              <label for="ss-date-de">Wunschtermin</label>
-              <input class="input" id="ss-date-de" name="date" type="date" style="min-height: 46px;">
-            </div>
-            <div class="field">
-              <label for="ss-servings-de">Portionen</label>
-              <input class="input" id="ss-servings-de" name="servings" type="number" min="6" max="200" step="1" placeholder="12" style="min-height: 46px;">
-            </div>
-          </div>
-          <div class="field">
-            <label for="ss-detail-de">Was sollen wir backen?</label>
-            <textarea class="input" id="ss-detail-de" name="detail" rows="4" placeholder="Anlass, Geschmack, was wir vermeiden sollen…"></textarea>
-          </div>
-          <p id="ss-note-de" style="margin: 0; font-size: 12px; line-height: 1.6; color: color-mix(in srgb, var(--color-text) 62%, transparent);">Wir antworten innerhalb eines Werktags. Dieses Formular versendet noch nichts — bitte nutzen Sie WhatsApp oder E-Mail.</p>
-          <button class="btn btn-primary btn-block" type="submit" aria-describedby="ss-note-de" style="min-height: 52px; font-size: 15px; margin-top: 0; transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: translateY(-2px);">Anfrage senden</button>
-          <p role="status" aria-live="polite" style="margin: 0; font-size: 13px; color: var(--color-accent-700); min-height: 18px;">{{ formStatus }}</p>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer style="background: var(--color-neutral-900); color: var(--color-neutral-200);">
-    <div style="max-width: 1240px; margin: 0 auto; padding: clamp(44px, 6vw, 80px) clamp(16px, 4vw, 40px) var(--space-6);">
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: clamp(28px, 4vw, 56px);">
-        <div>
-          <p style="font-family: var(--font-heading); font-size: 26px; margin: 0 0 var(--space-2); color: var(--color-neutral-100);">Silver Spoon</p>
-          <p style="margin: 0 0 var(--space-3); font-size: 13px; line-height: 1.7; color: var(--color-neutral-400);">Silver Spoon UG<br>Berlin, Deutschland<br>Konditorin: Neethu</p>
-          <p style="margin: 0; font-size: 13px; line-height: 1.8; color: var(--color-neutral-400);"><a href="mailto:hello@silverspoon.de" style="color: var(--color-accent-300); text-decoration: none;" style-hover="color: var(--color-accent-200);">hello@silverspoon.de</a><br><span style="font-feature-settings: 'tnum';">+49 XXX XXX XXXX</span></p>
-        </div>
-        <nav aria-label="Footer-Navigation">
-          <h2 style="font-family: var(--font-body); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-neutral-500); margin: 0 0 var(--space-3); font-weight: 400;">Navigation</h2>
-          <ul style="list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2);">
-            <li><a href="#home-de" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Start</a></li>
-            <li><a href="#cakes-de" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Torten</a></li>
-            <li><a href="#baker-de" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Die Bäckerin</a></li>
-            <li><a href="#gallery-de" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Galerie</a></li>
-            <li><a href="#faq-de" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">FAQ</a></li>
-            <li><a href="#contact-de" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Kontakt</a></li>
-          </ul>
-        </nav>
-        <div>
-          <h2 style="font-family: var(--font-body); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-neutral-500); margin: 0 0 var(--space-3); font-weight: 400;">Rechtliches</h2>
-          <ul style="list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2);">
-            <li><a href="#datenschutz" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Datenschutz</a></li>
-            <li><a href="#impressum" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Impressum</a></li>
-            <li><a href="#agb" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">AGB</a></li>
-            <li><a href="#widerruf" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Widerrufsrecht</a></li>
-            <li><button type="button" onClick="{{ noop }}" style="font: inherit; font-size: 14px; color: var(--color-neutral-200); background: transparent; border: 0; padding: 0; cursor: pointer; text-align: left; min-height: 24px;" style-hover="color: var(--color-accent-300);">Cookie-Einstellungen</button></li>
-          </ul>
-        </div>
-        <div>
-          <h2 style="font-family: var(--font-body); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-neutral-500); margin: 0 0 var(--space-3); font-weight: 400;">Folgen</h2>
-          <ul style="list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2);">
-            <li><a href="https://www.instagram.com/silverspoonug?igsi=eXpqdWJ4d3A5NHJr" target="_blank" rel="noopener" aria-label="Silver Spoon auf Instagram" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Instagram</a></li>
-            <li><a href="#pinterest" aria-label="Silver Spoon auf Pinterest (Platzhalter-Link)" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Pinterest</a></li>
-            <li><a href="#facebook" aria-label="Silver Spoon auf Facebook (Platzhalter-Link)" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Facebook</a></li>
-            <li><a href="{{ waHref }}" target="_blank" rel="noopener" style="font-size: 14px; color: var(--color-accent-300); text-decoration: none;" style-hover="color: var(--color-accent-200);">WhatsApp</a></li>
-          </ul>
-        </div>
-      </div>
-      <hr style="height: 1px; border: 0; margin: clamp(28px, 4vw, 48px) 0 var(--space-4); background: color-mix(in srgb, var(--color-neutral-100) 18%, transparent);">
-      <div style="display: flex; flex-wrap: wrap; gap: var(--space-3) var(--space-6); justify-content: space-between; font-size: 12px; color: var(--color-neutral-500);">
-        <p style="margin: 0; font-feature-settings: 'tnum';">© 2026 Silver Spoon UG. Alle Rechte vorbehalten.</p>
-        <p style="margin: 0;">Gebacken in Berlin von Neethu · Registergericht Berlin (Charlottenburg), HRB XXXXXX B</p>
+      <div class="hero-img">
+        <img src="pics/IMG_4438.PNG" alt="A tall cake with hand-painted pastel buttercream and sugar flowers on a pink cake stand." fetchpriority="high">
       </div>
     </div>
-  </footer>
-  </div>
-  </sc-if>
+  </section>
 
-  <sc-if value="{{ isEn }}" hint-placeholder-val="{{ false }}">
-    <div lang="en">
-    <a href="#main-en" style="position: absolute; left: -9999px; top: 0; z-index: 200; padding: 10px 16px; background: var(--color-bg); border: 1px solid var(--color-accent); border-radius: var(--radius-md); color: var(--color-accent); font-family: var(--font-heading); text-decoration: none;" style-focus="left: 12px; top: 12px;">Skip to content</a>
+  <!-- Flavours -->
+  <section id="flavours" class="band">
+    <div class="wrap">
+      <span class="kicker">Freshly baked</span>
+      <h2 class="section-title">Our cake flavours</h2>
+      <p class="section-sub">These are the flavours we bake — every one of them fresh, only on order. Pick your favourite as the base, and we'll decorate it around your theme.</p>
 
-    <header style="position: sticky; top: 0; z-index: 60; background: color-mix(in srgb, var(--color-bg) 78%, transparent); backdrop-filter: saturate(1.4) blur(14px); -webkit-backdrop-filter: saturate(1.4) blur(14px); border-bottom: 1px solid var(--color-divider);">
-      <nav aria-label="Primary" style="display: flex; align-items: center; gap: var(--space-4); max-width: 1240px; margin: 0 auto; padding: var(--space-3) clamp(16px, 4vw, 40px);">
-        <a href="#home-en" style="display: flex; align-items: baseline; gap: 8px; text-decoration: none; color: inherit; margin-right: auto;">
-          <span style="font-family: var(--font-heading); font-size: clamp(19px, 2.4vw, 23px); letter-spacing: 0.01em;">Silver Spoon</span>
-          <span style="font-size: 9px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--color-accent-700); font-family: var(--font-body);">Berlin</span>
+      <div class="grid">
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="pics/flavours/chocolate.jpg" alt="A slice of rich chocolate cake."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Classic Chocolate</h3></div>
+            <p>Rich, moist chocolate sponge with silky chocolate cream — the all-time favourite.</p>
+            <a class="order" href="https://wa.me/4915209613663?text=Hi!%20I%27d%20like%20to%20order%20a%20Classic%20Chocolate%20cake." target="_blank" rel="noopener">Order on WhatsApp →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="pics/flavours/white-chocolate.jpg" alt="A slice of white chocolate layer cake topped with white chocolate curls."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>White Chocolate</h3></div>
+            <p>Delicate white chocolate sponge and cream — smooth, elegant and not too sweet.</p>
+            <a class="order" href="https://wa.me/4915209613663?text=Hi!%20I%27d%20like%20to%20order%20a%20White%20Chocolate%20cake." target="_blank" rel="noopener">Order on WhatsApp →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="pics/flavours/vancho.jpg" alt="A slice of layered chocolate and vanilla Vancho cake with a marbled glaze."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Vancho</h3></div>
+            <p>Our special chocolate–vanilla mix: two flavours swirled into one, loved by everyone.</p>
+            <a class="order" href="https://wa.me/4915209613663?text=Hi!%20I%27d%20like%20to%20order%20a%20Vancho%20cake." target="_blank" rel="noopener">Order on WhatsApp →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="pics/flavours/red-carpet.jpg" alt="A slice of red layered cake with cream frosting and chocolate curls."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Red Carpet</h3></div>
+            <p>A show-stopping red beauty layered with soft cream — for celebrations that deserve a grand entrance.</p>
+            <a class="order" href="https://wa.me/4915209613663?text=Hi!%20I%27d%20like%20to%20order%20a%20Red%20Carpet%20cake." target="_blank" rel="noopener">Order on WhatsApp →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="pics/flavours/death-by-chocolate.jpg" alt="A slice of dark chocolate layer cake topped with chocolate shavings."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Death by Chocolate</h3></div>
+            <p>For serious chocolate lovers: dark, intense, layer after layer of pure chocolate indulgence.</p>
+            <a class="order" href="https://wa.me/4915209613663?text=Hi!%20I%27d%20like%20to%20order%20a%20Death%20by%20Chocolate%20cake." target="_blank" rel="noopener">Order on WhatsApp →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="pics/flavours/dark-forest.jpg" alt="A slice of chocolate and cherry layer cake topped with fresh cherries."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Dark Forest</h3></div>
+            <p>Chocolate sponge, whipped cream and cherries — our take on the timeless classic.</p>
+            <a class="order" href="https://wa.me/4915209613663?text=Hi!%20I%27d%20like%20to%20order%20a%20Dark%20Forest%20cake." target="_blank" rel="noopener">Order on WhatsApp →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="pics/flavours/berry.jpg" alt="A slice of berry layer cake with fresh raspberries, blueberries and blackberries."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Berry Tasting</h3></div>
+            <p>Light sponge with fresh berries and fruity cream — bright, fresh and summery.</p>
+            <a class="order" href="https://wa.me/4915209613663?text=Hi!%20I%27d%20like%20to%20order%20a%20Berry%20Tasting%20cake." target="_blank" rel="noopener">Order on WhatsApp →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="pics/flavours/tea-cake.jpg" alt="A slice of Kerala-style tea cake on a ceramic plate."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Kerala Tea Cake</h3></div>
+            <p>Indian Kerala-style tea cake — a nostalgic teatime treat, baked fresh only on order.</p>
+            <a class="order" href="https://wa.me/4915209613663?text=Hi!%20I%27d%20like%20to%20order%20a%20Kerala%20Tea%20Cake." target="_blank" rel="noopener">Order on WhatsApp →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="pics/flavours/ghee-cake.jpg" alt="A slice of golden ghee cake topped with cashews and almonds."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Ghee Cake</h3></div>
+            <p>Rich, aromatic Kerala ghee cake — melts in the mouth. Made only on order, always fresh.</p>
+            <a class="order" href="https://wa.me/4915209613663?text=Hi!%20I%27d%20like%20to%20order%20a%20Ghee%20Cake." target="_blank" rel="noopener">Order on WhatsApp →</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="notes">
+        <div class="note"><strong>Your theme, any flavour</strong>Decoration is made around your theme or wish — pick any flavour above and we design the rest together.</div>
+        <div class="note"><strong>Vegan? Just say so</strong>Not all cakes are vegan, so please mention it when ordering and we'll bake yours accordingly.</div>
+        <div class="note"><strong>Pickup with a promise</strong>Only double-tier cakes are delivered — everything else is pickup only. But trust us: one bite, and you'll know the trip was worth it.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Custom creations gallery -->
+  <section id="creations">
+    <div class="wrap">
+      <span class="kicker">Made to your theme</span>
+      <h2 class="section-title">Customisations we've made</h2>
+      <p class="section-sub">A few favourites from our kitchen — but the designs are <em>not</em> limited to these. Whatever theme you have in mind, we will make it. When you place your order through WhatsApp or email, just send a sample picture of the cake you need, or tell us the idea you have. Simple birthday cakes start at €90; big double-tier customised cakes go up to €200 and are the only ones we deliver.</p>
+
+      <div class="gallery">
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="pics/IMG_6485.JPG" alt="A cake with hand-painted floral buttercream topped with a pink peony."></div>
+          <figcaption><div class="card-top"><strong>Painted Peony</strong><span class="price">€160</span></div><span>Hand-painted floral buttercream crowned with a pink peony — elegant and romantic.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg">
+            <span class="badge">Double-tier · Delivery</span>
+            <img loading="lazy" src="pics/IMG_6808.JPG" alt="A two-tier pastel baby-shower cake with fondant balloons and a sleeping baby.">
+          </div>
+          <figcaption><div class="card-top"><strong>Baby Shower Dream</strong><span class="price">€160</span></div><span>Two pastel tiers with fondant balloons and a sleeping baby — delivered and set up for the party.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg">
+            <span class="badge">Double-tier · Delivery</span>
+            <img loading="lazy" src="pics/IMG_6914.JPG" alt="A two-tier blue and cream 'Mom to be' cake with teddy bears and baby clothes.">
+          </div>
+          <figcaption><div class="card-top"><strong>Mom To Be</strong><span class="price">€160</span></div><span>Blue and cream tiers with teddy bears, tiny onesies and golden pearls for a gender reveal.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="pics/IMG_6917.JPG" alt="A blue Sonic the Hedgehog birthday cake with Sonic and Tails figures."></div>
+          <figcaption><div class="card-top"><strong>Sonic Speed</strong><span class="price">€100</span></div><span>Sonic and Tails, golden rings and all — a favourite cartoon turned into a birthday cake.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="pics/IMG_6913.JPG" alt="A red Paw Patrol cake with a Marshall figure and the number three."></div>
+          <figcaption><div class="card-top"><strong>Paw Patrol to the Rescue</strong><span class="price">€100</span></div><span>Marshall reporting for duty on a third birthday — paw prints, badge and fire hat included.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="pics/IMG_6512.JPG" alt="A tall cake with a mountain landscape, camper van and snow-capped fondant peaks."></div>
+          <figcaption><div class="card-top"><strong>Mountain Adventure</strong><span class="price">€100</span></div><span>Snow-capped fondant peaks, pine trees and a little camper van for a travel lover.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="pics/IMG_6591.JPG" alt="A black monster-truck cake with flames and a racing flag."></div>
+          <figcaption><div class="card-top"><strong>Monster Truck</strong><span class="price">€100</span></div><span>Flames, checkered flags and big wheels for a fourth birthday full of horsepower.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="pics/IMG_6602.JPG" alt="A first-birthday cake with a smiling sun, daisies and fondant bees."></div>
+          <figcaption><div class="card-top"><strong>First Birthday Sunshine</strong><span class="price">€90</span></div><span>A smiling sun, daisies and busy little bees to celebrate turning one.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="pics/IMG_6486.JPG" alt="A winter ski-themed cake with snowflakes and a small skier figure."></div>
+          <figcaption><div class="card-top"><strong>Ski Season</strong><span class="price">€90</span></div><span>Snowflakes, slopes and a tiny skier — a winter birthday on the piste.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="pics/IMG_6816.JPG" alt="A minimalist white cake with two fondant figures and red LOVE lettering."></div>
+          <figcaption><div class="card-top"><strong>Love, Simply</strong><span class="price">€90</span></div><span>A minimalist white cake with two sweethearts and a heart balloon — perfect for anniversaries.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="pics/IMG_6555.JPG" alt="A humorous birthday cake with a fondant figure lying flat next to a bottle."></div>
+          <figcaption><div class="card-top"><strong>The Morning After</strong><span class="price">€90</span></div><span>We do humour too — a cheeky 37th birthday cake that made the whole party laugh.</span></figcaption>
+        </figure>
+        <figure class="gcard">
+          <div class="gimg"><img loading="lazy" src="pics/IMG_6918.JPG" alt="A safari cake with a fondant elephant, giraffe and zebra."></div>
+          <figcaption><div class="card-top"><strong>Safari Party</strong><span class="price">€100</span></div><span>Elephant, giraffe and zebra out of fondant — a whole jungle on one cake.</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brownies & cupcakes -->
+  <section id="treats" class="band">
+    <div class="wrap">
+      <span class="kicker">Little indulgences</span>
+      <h2 class="section-title">Brownies &amp; Cupcakes</h2>
+      <p class="section-sub">Little extras alongside your cake — or a treat on their own.</p>
+      <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); max-width: 780px;">
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="pics/flavours/brownies.jpg" alt="A stack of fudgy walnut brownies with caramel drizzle."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Brownies</h3><span class="price">€3 / piece</span></div>
+            <p>Fudgy, freshly baked chocolate brownies. Buying in bulk for a party or office? Give us a call — the price can be discussed over phone.</p>
+            <a class="order" href="https://wa.me/4915209613663?text=Hi!%20I%27d%20like%20to%20order%20brownies." target="_blank" rel="noopener">Order on WhatsApp →</a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img"><img loading="lazy" src="pics/flavours/cupcakes.jpg" alt="Three assorted cupcakes with chocolate, lavender and raspberry frosting."></div>
+          <div class="card-body">
+            <div class="card-top"><h3>Decorated Cupcakes</h3><span class="price">on request</span></div>
+            <p>Cupcakes decorated to match your theme — perfect alongside a cake or as party favours. Contact us for flavours and pricing.</p>
+            <a class="order" href="https://wa.me/4915209613663?text=Hi!%20I%27d%20like%20to%20order%20decorated%20cupcakes." target="_blank" rel="noopener">Order on WhatsApp →</a>
+          </div>
+        </article>
+      </div>
+      <p class="section-sub" style="margin-top: 30px;">Craving something special that isn't listed? Feel free to contact us about any special cakes and pastries — we love a good challenge.</p>
+    </div>
+  </section>
+
+  <!-- Chef -->
+  <section id="chef">
+    <div class="wrap about" style="max-width: 820px; text-align: center;">
+      <div>
+        <span class="kicker">Silver Spoon · Berlin</span>
+        <h2 class="section-title">About the chef</h2>
+        <p>Silver Spoon is a small Berlin home bakery run by chef Neethu, who bakes and decorates every single cake herself — from the first sketch of your theme to the final sugar flower. Nothing sits on a shelf: every cake, brownie and cupcake is baked fresh only when you order it.</p>
+        <p>She holds a Master's degree in Computer Science — but chose the oven over the keyboard, training as a chef through professional baking courses before founding Silver Spoon. Her baking brings together classic patisserie and the flavours she grew up with in Kerala, India — which is why you'll find ghee cake and Kerala-style tea cake right next to white chocolate and berry cakes on the menu.</p>
+        <a class="btn btn-wa" href="https://wa.me/4915209613663?text=Hi%20Neethu!%20I%27d%20like%20to%20talk%20about%20a%20cake." target="_blank" rel="noopener" style="margin-top: 10px;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15L2 22l5.16-1.35A10 10 0 1 0 12 2Zm5.46 14.2c-.23.65-1.35 1.24-1.86 1.28-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.9-4.66-4.08-.13-.18-1.1-1.47-1.1-2.8 0-1.34.7-2 .95-2.27.25-.27.54-.34.72-.34.18 0 .36 0 .52.01.17.01.39-.06.61.47.23.54.77 1.87.84 2 .07.14.11.3.02.48-.09.18-.14.29-.27.45-.14.16-.29.36-.41.48-.14.13-.28.28-.12.55.16.27.71 1.17 1.52 1.9 1.05.93 1.93 1.22 2.2 1.36.27.13.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.75 1.85.88.27.14.45.2.52.32.07.11.07.65-.16 1.3Z"/></svg>
+          Chat with the chef
         </a>
-        <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
-          <ul style="display: flex; align-items: center; gap: clamp(12px, 1.9vw, 26px); list-style: none; margin: 0; padding: 0;">
-            <li><a href="#home-en" style="font-family: var(--font-heading); font-size: 15px; text-decoration: none; color: var(--color-text); padding: 6px 2px; border-bottom: 1px solid transparent;" style-hover="color: var(--color-accent-700); border-bottom-color: var(--color-accent);">Home</a></li>
-            <li><a href="#cakes-en" style="font-family: var(--font-heading); font-size: 15px; text-decoration: none; color: var(--color-text); padding: 6px 2px; border-bottom: 1px solid transparent;" style-hover="color: var(--color-accent-700); border-bottom-color: var(--color-accent);">Cakes</a></li>
-            <li><a href="#baker-en" style="font-family: var(--font-heading); font-size: 15px; text-decoration: none; color: var(--color-text); padding: 6px 2px; border-bottom: 1px solid transparent;" style-hover="color: var(--color-accent-700); border-bottom-color: var(--color-accent);">The Baker</a></li>
-            <li><a href="#gallery-en" style="font-family: var(--font-heading); font-size: 15px; text-decoration: none; color: var(--color-text); padding: 6px 2px; border-bottom: 1px solid transparent;" style-hover="color: var(--color-accent-700); border-bottom-color: var(--color-accent);">Gallery</a></li>
-            <li><a href="#faq-en" style="font-family: var(--font-heading); font-size: 15px; text-decoration: none; color: var(--color-text); padding: 6px 2px; border-bottom: 1px solid transparent;" style-hover="color: var(--color-accent-700); border-bottom-color: var(--color-accent);">FAQ</a></li>
-            <li><a href="#contact-en" style="font-family: var(--font-heading); font-size: 15px; text-decoration: none; color: var(--color-text); padding: 6px 2px; border-bottom: 1px solid transparent;" style-hover="color: var(--color-accent-700); border-bottom-color: var(--color-accent);">Contact</a></li>
-          </ul>
-          <div role="group" aria-label="Select language" style="display: inline-flex; overflow: hidden; border: 1px solid var(--color-divider); border-radius: var(--radius-md); flex: none;">
-            <button type="button" onClick="{{ setDe }}" aria-pressed="false" lang="de" style="{{ langDeStyle }}">DE</button>
-            <button type="button" onClick="{{ setEn }}" aria-pressed="true" lang="en" style="{{ langEnStyle }}">EN</button>
-          </div>
-          <a class="btn btn-primary" href="{{ waHref }}" target="_blank" rel="noopener" style="min-height: 44px; padding-inline: var(--space-4); flex: none;">Order Now</a>
-        </sc-if>
-        <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
-          <div role="group" aria-label="Select language" style="display: inline-flex; overflow: hidden; border: 1px solid var(--color-divider); border-radius: var(--radius-md);">
-            <button type="button" onClick="{{ setDe }}" aria-pressed="false" lang="de" style="{{ langDeStyle }}">DE</button>
-            <button type="button" onClick="{{ setEn }}" aria-pressed="true" lang="en" style="{{ langEnStyle }}">EN</button>
-          </div>
-          <button type="button" onClick="{{ toggleMenu }}" aria-controls="ss-menu-en" aria-expanded="{{ menuExpanded }}" aria-label="{{ menuLabelEn }}" style="width: 48px; height: 48px; display: grid; place-items: center; background: transparent; border: 1px solid var(--color-divider); border-radius: var(--radius-md); cursor: pointer; flex: none;" style-hover="background: color-mix(in srgb, var(--color-accent) 10%, transparent);">
-            <span style="display: grid; gap: 5px; width: 22px;">
-              <span style="{{ bar1 }}"></span>
-              <span style="{{ bar2 }}"></span>
-              <span style="{{ bar3 }}"></span>
-            </span>
-          </button>
-        </sc-if>
-      </nav>
-      <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
-        <div id="ss-menu-en" style="border-top: 1px solid var(--color-divider); background: color-mix(in srgb, var(--color-bg) 96%, transparent); backdrop-filter: blur(18px); animation: ss-panel 0.32s cubic-bezier(0.22, 1, 0.36, 1) both; padding: var(--space-4) clamp(16px, 5vw, 32px) var(--space-6);">
-          <ul style="list-style: none; margin: 0 0 var(--space-4); padding: 0; display: grid; gap: 2px;">
-            <li><a href="#home-en" onClick="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 52px; font-family: var(--font-heading); font-size: 21px; text-decoration: none; color: var(--color-text); border-bottom: 1px solid var(--color-divider);">Home</a></li>
-            <li><a href="#cakes-en" onClick="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 52px; font-family: var(--font-heading); font-size: 21px; text-decoration: none; color: var(--color-text); border-bottom: 1px solid var(--color-divider);">Cakes</a></li>
-            <li><a href="#baker-en" onClick="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 52px; font-family: var(--font-heading); font-size: 21px; text-decoration: none; color: var(--color-text); border-bottom: 1px solid var(--color-divider);">The Baker</a></li>
-            <li><a href="#gallery-en" onClick="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 52px; font-family: var(--font-heading); font-size: 21px; text-decoration: none; color: var(--color-text); border-bottom: 1px solid var(--color-divider);">Gallery</a></li>
-            <li><a href="#about-en" onClick="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 52px; font-family: var(--font-heading); font-size: 21px; text-decoration: none; color: var(--color-text); border-bottom: 1px solid var(--color-divider);">About</a></li>
-            <li><a href="#faq-en" onClick="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 52px; font-family: var(--font-heading); font-size: 21px; text-decoration: none; color: var(--color-text); border-bottom: 1px solid var(--color-divider);">FAQ</a></li>
-            <li><a href="#contact-en" onClick="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 52px; font-family: var(--font-heading); font-size: 21px; text-decoration: none; color: var(--color-text); border-bottom: 1px solid var(--color-divider);">Contact</a></li>
-          </ul>
-          <div style="display: grid; gap: var(--space-2);">
-            <a class="btn btn-primary" href="{{ waHref }}" target="_blank" rel="noopener" style="min-height: 52px; font-size: 15px;">Order Now</a>
-            <a class="btn btn-secondary" href="#cakes-en" onClick="{{ closeMenu }}" style="min-height: 52px; font-size: 15px;">View Collection</a>
-          </div>
-        </div>
-      </sc-if>
-    </header>
-
-    <main id="main-en">
-      <section id="home-en" aria-labelledby="hero-title-en" style="position: relative; padding: clamp(28px, 5vw, 56px) clamp(16px, 4vw, 40px) clamp(48px, 7vw, 88px); max-width: 1240px; margin: 0 auto;">
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: clamp(28px, 5vw, 64px); align-items: center;">
-          <div style="animation: ss-rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;">
-            <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-3);">Patisserie · Berlin</p>
-            <h1 id="hero-title-en" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(42px, 8.5vw, 82px); line-height: 1.02; letter-spacing: -0.02em; margin: 0 0 var(--space-4); text-wrap: balance;">Cakes worth<br><em style="font-style: italic; color: var(--color-accent-700);">sitting down</em> for.</h1>
-            <p style="font-size: clamp(16px, 2.1vw, 18px); line-height: 1.65; max-width: 46ch; margin: 0 0 var(--space-6); color: color-mix(in srgb, var(--color-text) 82%, transparent); text-wrap: pretty;">A kitchen in Berlin, run by pastry chef Neethu. Everything is baked the morning it is collected — butter, cream, seasonal fruit, and nothing we cannot pronounce. Tell us about the occasion and we will bake for it.</p>
-            <div style="display: flex; flex-wrap: wrap; gap: var(--space-3); margin-bottom: var(--space-6);">
-              <a class="btn btn-primary" href="{{ waHref }}" target="_blank" rel="noopener" style="min-height: 52px; padding-inline: var(--space-6); font-size: 15px; transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), background 0.2s;" style-hover="transform: translateY(-2px);" style-active="transform: translateY(1px) scale(0.99);">Order Now</a>
-              <a class="btn btn-secondary" href="#cakes-en" style="min-height: 52px; padding-inline: var(--space-6); font-size: 15px; transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), background 0.2s;" style-hover="transform: translateY(-2px);" style-active="transform: translateY(1px) scale(0.99);">View Collection</a>
-            </div>
-            <dl style="display: flex; flex-wrap: wrap; gap: var(--space-6) clamp(20px, 4vw, 44px); margin: 0; padding-top: var(--space-4); border-top: 1px solid var(--color-divider);">
-              <div><dt style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 4px;">Celebration cakes</dt><dd style="margin: 0; font-family: var(--font-heading); font-size: 26px; font-feature-settings: 'tnum';">from €90</dd></div>
-              <div><dt style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 4px;">Fully customised</dt><dd style="margin: 0; font-family: var(--font-heading); font-size: 26px; font-feature-settings: 'tnum';">from €150</dd></div>
-              <div><dt style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 4px;">Baked</dt><dd style="margin: 0; font-family: var(--font-heading); font-size: 26px;">to order</dd></div>
-            </dl>
-          </div>
-          <figure style="position: relative; animation: ss-fade 1.1s ease both;">
-            <img class="plate" src="pics/IMG_4438.PNG" alt="A tall cake with hand-painted pastel buttercream and sugar flowers on a pink cake stand." width="1100" height="1375" fetchpriority="high" decoding="async" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
-            <figcaption style="margin-top: var(--space-2); font-size: 11px; letter-spacing: 0.04em;">Hand-painted pastel buttercream — one of our most requested celebration cakes.</figcaption>
-            <img src="pics/IMG_6603.JPG" alt="" aria-hidden="true" width="340" height="340" loading="lazy" decoding="async" style="position: absolute; left: -6%; bottom: 14%; width: clamp(78px, 12vw, 132px); aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 5px solid var(--color-bg); box-shadow: var(--shadow-md); animation: ss-float 7s ease-in-out infinite; will-change: transform;">
-            <img src="pics/IMG_6816.JPG" alt="" aria-hidden="true" width="300" height="300" loading="lazy" decoding="async" style="position: absolute; right: -4%; top: -5%; width: clamp(62px, 9vw, 104px); aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 5px solid var(--color-bg); box-shadow: var(--shadow-sm); animation: ss-float2 9s ease-in-out infinite; will-change: transform;">
-          </figure>
-        </div>
-      </section>
-
-      <section id="cakes-en" aria-labelledby="cakes-title-en" style="padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px); max-width: 1240px; margin: 0 auto; border-top: 1px solid var(--color-divider);">
-        <div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: var(--space-4); margin-bottom: clamp(28px, 4vw, 52px);">
-          <div>
-            <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">01 — The collection</p>
-            <h2 id="cakes-title-en" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(32px, 5.4vw, 54px); line-height: 1.05; margin: 0; letter-spacing: -0.02em;">Featured cakes</h2>
-          </div>
-          <p style="max-width: 42ch; margin: 0; font-size: 15px; line-height: 1.7; color: color-mix(in srgb, var(--color-text) 75%, transparent); text-wrap: pretty;">Six cakes we bake all year. Each one can be sized from six to forty portions, and any of them can become the starting point for something of your own.</p>
-        </div>
-        <ul style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: clamp(20px, 3vw, 36px);">
-          <li style="display: flex; flex-direction: column;">
-            <figure style="margin: 0; overflow: hidden; border-radius: var(--radius-lg);">
-              <img class="plate" src="pics/IMG_6485.JPG" alt="A cake with hand-painted floral buttercream topped with a pink peony." width="700" height="700" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: scale(1.04);">
-            </figure>
-            <div style="padding: var(--space-3) 0 0;">
-              <div style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); border-bottom: 1px solid var(--color-divider); padding-bottom: var(--space-2);">
-                <h3 style="font-family: var(--font-heading); font-weight: 400; font-size: 23px; margin: 0;">Dark Ganache Torte</h3>
-                <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum';">€90</span>
-              </div>
-              <p style="margin: var(--space-2) 0 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Valrhona ganache over a devil's food sponge, morello cherries steeped in kirsch.</p>
-            </div>
-          </li>
-          <li style="display: flex; flex-direction: column;">
-            <figure style="margin: 0; overflow: hidden; border-radius: var(--radius-lg);">
-              <img class="plate" src="pics/IMG_6553.JPG" alt="A minimalist white cake with fresh raspberries, blueberries and a fine line drawing." width="700" height="700" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: scale(1.04);">
-            </figure>
-            <div style="padding: var(--space-3) 0 0;">
-              <div style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); border-bottom: 1px solid var(--color-divider); padding-bottom: var(--space-2);">
-                <h3 style="font-family: var(--font-heading); font-weight: 400; font-size: 23px; margin: 0;">Berry Cloud</h3>
-                <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum';">€95</span>
-              </div>
-              <p style="margin: var(--space-2) 0 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Vanilla sponge, mascarpone cream, and whatever the Brandenburg growers have picked.</p>
-            </div>
-          </li>
-          <li style="display: flex; flex-direction: column;">
-            <figure style="margin: 0; overflow: hidden; border-radius: var(--radius-lg);">
-              <img class="plate" src="pics/IMG_6552.JPG" alt="A cheesecake topped with berries and sugar roses, lettered ‘Feliz Aniversário’." width="700" height="700" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: scale(1.04);">
-            </figure>
-            <div style="padding: var(--space-3) 0 0;">
-              <div style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); border-bottom: 1px solid var(--color-divider); padding-bottom: var(--space-2);">
-                <h3 style="font-family: var(--font-heading); font-weight: 400; font-size: 23px; margin: 0;">Baked Vanilla Cheesecake</h3>
-                <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum';">€90</span>
-              </div>
-              <p style="margin: var(--space-2) 0 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Slow-baked for two hours, rested overnight. Bourbon vanilla, a hint of lemon zest.</p>
-            </div>
-          </li>
-          <li style="display: flex; flex-direction: column;">
-            <figure style="margin: 0; overflow: hidden; border-radius: var(--radius-lg);">
-              <img class="plate" src="pics/IMG_6810.JPG" alt="A tall birthday cake with fondant balloons and a painted girl, ‘Alexa is two’." width="700" height="700" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: scale(1.04);">
-            </figure>
-            <div style="padding: var(--space-3) 0 0;">
-              <div style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); border-bottom: 1px solid var(--color-divider); padding-bottom: var(--space-2);">
-                <h3 style="font-family: var(--font-heading); font-weight: 400; font-size: 23px; margin: 0;">The Birthday Cake</h3>
-                <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum';">€90</span>
-              </div>
-              <p style="margin: var(--space-2) 0 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Confetti sponge and strawberry buttercream. Candles included, singing is your job.</p>
-            </div>
-          </li>
-          <li style="display: flex; flex-direction: column;">
-            <figure style="margin: 0; overflow: hidden; border-radius: var(--radius-lg);">
-              <img class="plate" src="pics/IMG_6523.JPG" alt="A three-tier white wedding cake with pink wafer flowers and gold leaf." width="700" height="700" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: scale(1.04);">
-            </figure>
-            <div style="padding: var(--space-3) 0 0;">
-              <div style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); border-bottom: 1px solid var(--color-divider); padding-bottom: var(--space-2);">
-                <h3 style="font-family: var(--font-heading); font-weight: 400; font-size: 23px; margin: 0;">Wedding, Two Tiers</h3>
-                <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum';">from €150</span>
-              </div>
-              <p style="margin: var(--space-2) 0 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Elderflower and lemon, dressed with figs and blackberries. Designed with you, tasted first.</p>
-            </div>
-          </li>
-          <li style="display: flex; flex-direction: column;">
-            <figure style="margin: 0; overflow: hidden; border-radius: var(--radius-lg);">
-              <img class="plate" src="pics/IMG_6594.JPG" alt="A first-birthday cake with a smiling sun, daisies and fondant bees." width="700" height="700" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: scale(1.04);">
-            </figure>
-            <div style="padding: var(--space-3) 0 0;">
-              <div style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-2); border-bottom: 1px solid var(--color-divider); padding-bottom: var(--space-2);">
-                <h3 style="font-family: var(--font-heading); font-weight: 400; font-size: 23px; margin: 0;">Cupcakes, by the dozen</h3>
-                <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum';">€42</span>
-              </div>
-              <p style="margin: var(--space-2) 0 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">For offices, christenings and anything where a knife would be awkward.</p>
-            </div>
-          </li>
-        </ul>
-      </section>
-
-      <section id="seasonal-en" aria-labelledby="seasonal-title-en" style="background: var(--color-surface); border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
-        <div style="max-width: 1240px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px); display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: clamp(28px, 5vw, 64px); align-items: center;">
-          <figure style="margin: 0;">
-            <img class="plate" src="pics/IMG_6503.JPG" alt="A chocolate cake shaped like a bird's nest with three fondant birds." width="900" height="700" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 5 / 4; object-fit: cover; border-radius: var(--radius-lg); box-shadow: var(--shadow-sm);">
-            <figcaption style="margin-top: var(--space-2); font-size: 11px;">Themed and character cakes designed around your occasion.</figcaption>
-          </figure>
-          <div>
-            <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">02 — Seasonal specials</p>
-            <h2 id="seasonal-title-en" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 var(--space-4); letter-spacing: -0.02em;">What is good this month</h2>
-            <p style="font-size: 16px; line-height: 1.7; margin: 0 0 var(--space-4); color: color-mix(in srgb, var(--color-text) 82%, transparent); max-width: 48ch; text-wrap: pretty;">The seasonal board changes when the market changes — usually every three or four weeks. If you want something on it, order early; we bake a fixed number and then stop.</p>
-            <ul style="list-style: none; margin: 0 0 var(--space-6); padding: 0; display: grid; gap: 0;">
-              <li style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-3); padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);">
-                <span><strong style="font-family: var(--font-heading); font-weight: 600; font-size: 17px;">Strawberry &amp; elderflower torte</strong><br><span style="font-size: 13px; color: color-mix(in srgb, var(--color-text) 70%, transparent);">Until early August</span></span>
-                <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum'; white-space: nowrap;">€92</span>
-              </li>
-              <li style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-3); padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);">
-                <span><strong style="font-family: var(--font-heading); font-weight: 600; font-size: 17px;">Apricot &amp; almond frangipane tart</strong><br><span style="font-size: 13px; color: color-mix(in srgb, var(--color-text) 70%, transparent);">Weekends only</span></span>
-                <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum'; white-space: nowrap;">€38</span>
-              </li>
-              <li style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-3); padding: var(--space-3) 0; border-bottom: 1px solid var(--color-divider);">
-                <span><strong style="font-family: var(--font-heading); font-weight: 600; font-size: 17px;">Sour cherry streusel cake</strong><br><span style="font-size: 13px; color: color-mix(in srgb, var(--color-text) 70%, transparent);">While the cherries last</span></span>
-                <span style="font-family: var(--font-heading); font-size: 16px; color: var(--color-accent-700); font-feature-settings: 'tnum'; white-space: nowrap;">€34</span>
-              </li>
-            </ul>
-            <a class="btn btn-primary" href="{{ waHref }}" target="_blank" rel="noopener" style="min-height: 48px; padding-inline: var(--space-6); transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: translateY(-2px);">Reserve this month's board</a>
-          </div>
-        </div>
-      </section>
-
-      <section id="baker-en" aria-labelledby="baker-title-en" style="border-top: 1px solid var(--color-divider); background: linear-gradient(180deg, var(--color-bg), var(--color-neutral-100));">
-        <div style="max-width: 1240px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px); display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: clamp(28px, 5vw, 64px); align-items: center;">
-          <div>
-            <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">03 — The baker</p>
-            <h2 id="baker-title-en" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 var(--space-4); letter-spacing: -0.02em;">Hello, I'm Neethu</h2>
-            <blockquote style="margin: 0 0 var(--space-4); padding-left: var(--space-4); border-left: 1px solid var(--color-accent); font-family: var(--font-heading); font-size: clamp(21px, 2.8vw, 28px); line-height: 1.3; font-style: italic;">“I don't bake cakes. I bake the moment everyone at the table goes quiet.”</blockquote>
-            <p style="font-size: 16px; line-height: 1.75; margin: 0 0 var(--space-3); color: color-mix(in srgb, var(--color-text) 85%, transparent); text-wrap: pretty;">I'm the pastry chef, the boss, and the person switching on the kitchen lights at half past five in the morning. I started because the smell of warm butter makes me happy. I keep going because that “oh!” when the cake reaches the table never gets old.</p>
-            <p style="font-size: 16px; line-height: 1.75; margin: 0 0 var(--space-3); color: color-mix(in srgb, var(--color-text) 85%, transparent); text-wrap: pretty;">Every cake that leaves this kitchen has been in my hands. I weigh it myself, I taste it myself — and if it isn't as beautiful as your occasion deserves, I start again. Care isn't a marketing line here; it's the reason I sleep too little and still get up gladly.</p>
-            <p style="font-size: 16px; line-height: 1.75; margin: 0 0 var(--space-4); color: color-mix(in srgb, var(--color-text) 85%, transparent); text-wrap: pretty;">Tell me who we are celebrating — and I will bake something that tastes like them.</p>
-            <p style="margin: 0 0 var(--space-6); font-family: var(--font-heading); font-size: 17px; font-style: italic; color: var(--color-accent-700);">— Neethu, pastry chef &amp; founder of Silver Spoon</p>
-            <ul style="list-style: none; margin: 0; padding: var(--space-4) 0 0; border-top: 1px solid var(--color-divider); display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-4);">
-              <li><span style="display: block; font-family: var(--font-heading); font-size: 22px; font-feature-settings: 'tnum';">05:30</span><span style="font-size: 12px; color: color-mix(in srgb, var(--color-text) 62%, transparent);">the lights go on</span></li>
-              <li><span style="display: block; font-family: var(--font-heading); font-size: 22px;">Every</span><span style="font-size: 12px; color: color-mix(in srgb, var(--color-text) 62%, transparent);">cake decorated by two hands</span></li>
-              <li><span style="display: block; font-family: var(--font-heading); font-size: 22px;">Never</span><span style="font-size: 12px; color: color-mix(in srgb, var(--color-text) 62%, transparent);">a packet mix</span></li>
-            </ul>
-          </div>
-          <figure style="margin: 0;">
-            <img class="plate" src="pics/IMG_6512.JPG" alt="A tall cake with a mountain landscape, camper van and snow-capped fondant peaks." width="900" height="1125" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
-            <figcaption style="margin-top: var(--space-2); font-size: 11px;">One of our custom sculpted cakes from the studio.</figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section id="bestsellers-en" aria-labelledby="best-title-en" style="border-top: 1px solid var(--color-divider); padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px); max-width: 1240px; margin: 0 auto;">
-        <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">04 — Best sellers</p>
-        <h2 id="best-title-en" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 clamp(24px, 4vw, 44px); letter-spacing: -0.02em;">Ordered most often</h2>
-        <ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: clamp(18px, 2.6vw, 32px);">
-          <li style="display: flex; flex-direction: column; gap: var(--space-3);">
-            <img class="plate" src="pics/IMG_6808.JPG" alt="A two-tier pastel baby-shower cake with fondant balloons and a sleeping baby." width="600" height="750" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius-lg);">
-            <div style="display: flex; align-items: baseline; gap: var(--space-2);">
-              <span style="font-family: var(--font-heading); font-size: 13px; color: var(--color-accent); font-feature-settings: 'tnum';">01</span>
-              <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 18px; margin: 0;">Sea-salt fudge brownies</h3>
-            </div>
-            <p style="margin: 0; font-size: 13px; line-height: 1.6; color: color-mix(in srgb, var(--color-text) 72%, transparent);">Box of nine, €24. Sold out most Saturdays by noon.</p>
-          </li>
-          <li style="display: flex; flex-direction: column; gap: var(--space-3);">
-            <img class="plate" src="pics/IMG_6918.JPG" alt="A safari cake with a fondant elephant, giraffe and zebra." width="600" height="750" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius-lg);">
-            <div style="display: flex; align-items: baseline; gap: var(--space-2);">
-              <span style="font-family: var(--font-heading); font-size: 13px; color: var(--color-accent); font-feature-settings: 'tnum';">02</span>
-              <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 18px; margin: 0;">Macarons, twelve flavours</h3>
-            </div>
-            <p style="margin: 0; font-size: 13px; line-height: 1.6; color: color-mix(in srgb, var(--color-text) 72%, transparent);">Box of twelve, €28. Pistachio and salted caramel go first.</p>
-          </li>
-          <li style="display: flex; flex-direction: column; gap: var(--space-3);">
-            <img class="plate" src="pics/IMG_6913.JPG" alt="A red Paw Patrol cake with a Marshall figure and the number three." width="600" height="750" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius-lg);">
-            <div style="display: flex; align-items: baseline; gap: var(--space-2);">
-              <span style="font-family: var(--font-heading); font-size: 13px; color: var(--color-accent); font-feature-settings: 'tnum';">03</span>
-              <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 18px; margin: 0;">Berry tartlets</h3>
-            </div>
-            <p style="margin: 0; font-size: 13px; line-height: 1.6; color: color-mix(in srgb, var(--color-text) 72%, transparent);">€6 each. Crème pâtissière, all-butter pastry, assembled to order.</p>
-          </li>
-          <li style="display: flex; flex-direction: column; gap: var(--space-3);">
-            <img class="plate" src="pics/IMG_6911.JPG" alt="A blue ‘Super Dad’ cake with fondant figures and a unicorn." width="600" height="750" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius-lg);">
-            <div style="display: flex; align-items: baseline; gap: var(--space-2);">
-              <span style="font-family: var(--font-heading); font-size: 13px; color: var(--color-accent); font-feature-settings: 'tnum';">04</span>
-              <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 18px; margin: 0;">Coffee cream layer cake</h3>
-            </div>
-            <p style="margin: 0; font-size: 13px; line-height: 1.6; color: color-mix(in srgb, var(--color-text) 72%, transparent);">€90. Eight layers, espresso from Kreuzberg, not sweet.</p>
-          </li>
-        </ol>
-      </section>
-
-      <section id="why-en" aria-labelledby="why-title-en" style="border-top: 1px solid var(--color-divider); background: linear-gradient(180deg, var(--color-neutral-100), var(--color-bg));">
-        <div style="max-width: 1240px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px);">
-          <div style="max-width: 52ch; margin-bottom: clamp(28px, 4vw, 52px);">
-            <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">05 — Why Silver Spoon</p>
-            <h2 id="why-title-en" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 var(--space-3); letter-spacing: -0.02em;">Four promises, kept quietly</h2>
-            <p style="margin: 0; font-size: 16px; line-height: 1.7; color: color-mix(in srgb, var(--color-text) 80%, transparent); text-wrap: pretty;">No display fridge, no shortcuts, no cake sitting in a case since Tuesday.</p>
-          </div>
-          <ul style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: clamp(20px, 3vw, 32px);">
-            <li class="card elev-sm" style="background: color-mix(in srgb, var(--color-bg) 70%, transparent); backdrop-filter: blur(8px); border-radius: var(--radius-lg); padding: var(--space-4);">
-              <span aria-hidden="true" style="font-family: var(--font-heading); font-size: 12px; letter-spacing: 0.1em; color: var(--color-accent);">I</span>
-              <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 19px; margin: 0;">Baked the morning you collect</h3>
-              <p style="margin: 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Every order is scheduled backwards from your pick-up time. Nothing is frozen and nothing is defrosted.</p>
-            </li>
-            <li class="card elev-sm" style="background: color-mix(in srgb, var(--color-bg) 70%, transparent); backdrop-filter: blur(8px); border-radius: var(--radius-lg); padding: var(--space-4);">
-              <span aria-hidden="true" style="font-family: var(--font-heading); font-size: 12px; letter-spacing: 0.1em; color: var(--color-accent);">II</span>
-              <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 19px; margin: 0;">Ingredients with an address</h3>
-              <p style="margin: 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Butter and cream from Brandenburg dairies, fruit from the Beelitz growers, chocolate from a single Valrhona house.</p>
-            </li>
-            <li class="card elev-sm" style="background: color-mix(in srgb, var(--color-bg) 70%, transparent); backdrop-filter: blur(8px); border-radius: var(--radius-lg); padding: var(--space-4);">
-              <span aria-hidden="true" style="font-family: var(--font-heading); font-size: 12px; letter-spacing: 0.1em; color: var(--color-accent);">III</span>
-              <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 19px; margin: 0;">One baker, one conversation</h3>
-              <p style="margin: 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">You speak to Neethu — the person holding the piping bag. Sketches, tastings and second thoughts are all part of it.</p>
-            </li>
-            <li class="card elev-sm" style="background: color-mix(in srgb, var(--color-bg) 70%, transparent); backdrop-filter: blur(8px); border-radius: var(--radius-lg); padding: var(--space-4);">
-              <span aria-hidden="true" style="font-family: var(--font-heading); font-size: 12px; letter-spacing: 0.1em; color: var(--color-accent);">IV</span>
-              <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 19px; margin: 0;">Honest about allergens</h3>
-              <p style="margin: 0; font-size: 14px; line-height: 1.65; color: color-mix(in srgb, var(--color-text) 76%, transparent);">Vegan and gluten-free sponges are on the menu, and we will always tell you what our kitchen cannot promise.</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="gallery-en" aria-labelledby="gallery-title-en" style="border-top: 1px solid var(--color-divider); padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px); max-width: 1240px; margin: 0 auto;">
-        <div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: var(--space-4); margin-bottom: clamp(24px, 4vw, 44px);">
-          <div>
-            <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">06 — Gallery</p>
-            <h2 id="gallery-title-en" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0; letter-spacing: -0.02em;">From the kitchen</h2>
-          </div>
-          <p style="margin: 0; max-width: 34ch; font-size: 14px; line-height: 1.7; color: color-mix(in srgb, var(--color-text) 72%, transparent);">Cakes we have made for Berlin birthdays, weddings and ordinary Thursdays.</p>
-        </div>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: clamp(10px, 1.6vw, 18px);">
-          <figure style="grid-column: span 2; margin: 0;"><img class="plate" src="pics/IMG_6908.JPG" alt="A blue Sonic birthday cake with Sonic and Tails figures, ‘Vedanth’." width="900" height="600" loading="lazy" decoding="async" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: var(--radius-lg);"></figure>
-          <figure style="margin: 0;"><img class="plate" src="pics/IMG_6591.JPG" alt="A black monster-truck cake with flames and a racing flag, ‘Happy 4th Birthday’." width="600" height="600" loading="lazy" decoding="async" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: var(--radius-lg);"></figure>
-          <figure style="margin: 0;"><img class="plate" src="pics/IMG_6602.JPG" alt="A first-birthday cake with a sun, daisies and bees, ‘Olivia’." width="600" height="600" loading="lazy" decoding="async" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: var(--radius-lg);"></figure>
-          <figure style="margin: 0;"><img class="plate" src="pics/IMG_6489.JPG" alt="A Scrabble-style ‘Happy Birthday Husband’ cake with red hearts and a black bow." width="600" height="600" loading="lazy" decoding="async" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: var(--radius-lg);"></figure>
-          <figure style="grid-column: span 2; margin: 0;"><img class="plate" src="pics/IMG_6540.JPG" alt="A playful birthday cake with a fondant figure and ‘Happy B-Day’ lettering." width="900" height="600" loading="lazy" decoding="async" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: var(--radius-lg);"></figure>
-          <figure style="margin: 0;"><img class="plate" src="pics/IMG_6516.JPG" alt="A ‘Happy Birthday Husband’ bento cake in a box with red hearts." width="600" height="600" loading="lazy" decoding="async" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: var(--radius-lg);"></figure>
-        </div>
-      </section>
-
-      <section id="testimonials-en" aria-labelledby="test-title-en" style="background: var(--color-surface); border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
-        <div style="max-width: 1240px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px);">
-          <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">07 — In their words</p>
-          <h2 id="test-title-en" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 clamp(26px, 4vw, 48px); letter-spacing: -0.02em;">What our customers say</h2>
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: clamp(20px, 3vw, 40px);">
-            <figure style="margin: 0; padding-left: var(--space-4); border-left: 1px solid var(--color-accent);">
-              <blockquote style="margin: 0 0 var(--space-3); font-family: var(--font-heading); font-size: clamp(19px, 2.4vw, 23px); line-height: 1.35; font-style: italic;">“Our wedding cake arrived in a heatwave and looked exactly like the sketch. Three guests asked for the bakery's name before the speeches.”</blockquote>
-              <figcaption style="font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 60%, transparent);">Marlene &amp; Jonas — Prenzlauer Berg <span class="text-muted" style="text-transform: none; letter-spacing: 0;">(placeholder)</span></figcaption>
-            </figure>
-            <figure style="margin: 0; padding-left: var(--space-4); border-left: 1px solid var(--color-accent);">
-              <blockquote style="margin: 0 0 var(--space-3); font-family: var(--font-heading); font-size: clamp(19px, 2.4vw, 23px); line-height: 1.35; font-style: italic;">“I asked for a gluten-free birthday cake for my daughter and got a proper cake, not a compromise. She has requested it again.”</blockquote>
-              <figcaption style="font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 60%, transparent);">Amara O. — Neukölln <span class="text-muted" style="text-transform: none; letter-spacing: 0;">(placeholder)</span></figcaption>
-            </figure>
-            <figure style="margin: 0; padding-left: var(--space-4); border-left: 1px solid var(--color-accent);">
-              <blockquote style="margin: 0 0 var(--space-3); font-family: var(--font-heading); font-size: clamp(19px, 2.4vw, 23px); line-height: 1.35; font-style: italic;">“We order cupcakes for every studio launch. They turn up on time, and the team fights over the coffee ones.”</blockquote>
-              <figcaption style="font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 60%, transparent);">Studio Halbmond — Mitte <span class="text-muted" style="text-transform: none; letter-spacing: 0;">(placeholder)</span></figcaption>
-            </figure>
-          </div>
-        </div>
-      </section>
-
-      <section id="about-en" aria-labelledby="about-title-en" style="max-width: 1240px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px);">
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: clamp(28px, 5vw, 64px); align-items: start;">
-          <div>
-            <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">08 — About</p>
-            <h2 id="about-title-en" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 var(--space-4); letter-spacing: -0.02em;">Silver Spoon UG, Berlin</h2>
-            <p style="text-align: justify; hyphens: auto; font-size: 16px; line-height: 1.75; margin: 0 0 var(--space-3);">Silver Spoon began in 2019 as a domestic oven, a market stall and Neethu's stubborn idea: that a cake should taste like the fruit and the butter it was made from, and that you should be able to meet the person who baked it. Two ovens and several hundred birthdays later, the idea has not changed.</p>
-            <p style="text-align: justify; hyphens: auto; font-size: 16px; line-height: 1.75; margin: 0 0 var(--space-3);">We are deliberately small. A single kitchen in Berlin takes a limited number of orders each week, which is why we ask for notice and why we can still sit down with you over a sketchbook. Wedding couples come for tastings on Saturdays; the rest of the week belongs to birthdays, christenings, retirements and the occasional apology cake.</p>
-            <p style="text-align: justify; hyphens: auto; font-size: 16px; line-height: 1.75; margin: 0 0 var(--space-6);">Registered as Silver Spoon UG in Berlin, Germany. Everything we sell is baked in our own kitchen — nothing is bought in and re-decorated.</p>
-            <dl style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-4); margin: 0; padding-top: var(--space-4); border-top: 1px solid var(--color-divider);">
-              <div><dt style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 4px;">Founded</dt><dd style="margin: 0; font-family: var(--font-heading); font-size: 22px; font-feature-settings: 'tnum';">2019</dd></div>
-              <div><dt style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 4px;">Cakes a week</dt><dd style="margin: 0; font-family: var(--font-heading); font-size: 22px; font-feature-settings: 'tnum';">24 max</dd></div>
-              <div><dt style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); margin-bottom: 4px;">Weddings in 2025</dt><dd style="margin: 0; font-family: var(--font-heading); font-size: 22px; font-feature-settings: 'tnum';">38</dd></div>
-            </dl>
-          </div>
-          <figure style="margin: 0;">
-            <img class="plate" src="pics/IMG_6486.JPG" alt="A winter ski-themed cake with snowflakes and a small skier figure." width="800" height="800" loading="lazy" decoding="async" style="width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-lg); box-shadow: var(--shadow-sm);">
-            <figcaption style="margin-top: var(--space-2); font-size: 11px;">Every cake is hand-sculpted and decorated to order.</figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section id="faq-en" aria-labelledby="faq-title-en" style="border-top: 1px solid var(--color-divider); background: var(--color-neutral-100);">
-        <div style="max-width: 900px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px);">
-          <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">09 — FAQ</p>
-          <h2 id="faq-title-en" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 clamp(24px, 4vw, 40px); letter-spacing: -0.02em;">Questions people ask us</h2>
-          <div style="display: grid; gap: 0;">
-            <details style="border-top: 1px solid var(--color-divider);">
-              <summary style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 60px; padding: var(--space-3) 0; font-family: var(--font-heading); font-size: clamp(18px, 2.3vw, 21px);" style-hover="color: var(--color-accent-700);"><span>How far in advance should I order a custom cake?</span><span aria-hidden="true" style="flex: none; color: var(--color-accent); font-size: 20px;">+</span></summary>
-              <p style="margin: 0 0 var(--space-4); max-width: 62ch; font-size: 15px; line-height: 1.75; color: color-mix(in srgb, var(--color-text) 82%, transparent);">Two weeks is comfortable for a custom celebration cake, and four to six weeks for a wedding cake. Small cakes and pastry boxes can often be baked with five days' notice — write to us and we will tell you honestly what is still possible.</p>
-            </details>
-            <details style="border-top: 1px solid var(--color-divider);">
-              <summary style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 60px; padding: var(--space-3) 0; font-family: var(--font-heading); font-size: clamp(18px, 2.3vw, 21px);" style-hover="color: var(--color-accent-700);"><span>What does a cake cost?</span><span aria-hidden="true" style="flex: none; color: var(--color-accent); font-size: 20px;">+</span></summary>
-              <p style="margin: 0 0 var(--space-4); max-width: 62ch; font-size: 15px; line-height: 1.75; color: color-mix(in srgb, var(--color-text) 82%, transparent);">Birthday and event cakes start at €90. Fully customised cakes start at €150 and rise with tiers, finish and decoration. You always receive a written quote before we begin, with a 30% deposit to hold the date.</p>
-            </details>
-            <details style="border-top: 1px solid var(--color-divider);">
-              <summary style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 60px; padding: var(--space-3) 0; font-family: var(--font-heading); font-size: clamp(18px, 2.3vw, 21px);" style-hover="color: var(--color-accent-700);"><span>Who bakes my cake?</span><span aria-hidden="true" style="flex: none; color: var(--color-accent); font-size: 20px;">+</span></summary>
-              <p style="margin: 0 0 var(--space-4); max-width: 62ch; font-size: 15px; line-height: 1.75; color: color-mix(in srgb, var(--color-text) 82%, transparent);">Neethu — pastry chef and founder of Silver Spoon. She bakes and decorates every cake herself in the Berlin kitchen, so you speak to the same person from the first sketch to collection day.</p>
-            </details>
-            <details style="border-top: 1px solid var(--color-divider);">
-              <summary style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 60px; padding: var(--space-3) 0; font-family: var(--font-heading); font-size: clamp(18px, 2.3vw, 21px);" style-hover="color: var(--color-accent-700);"><span>Do you offer wedding cake tastings?</span><span aria-hidden="true" style="flex: none; color: var(--color-accent); font-size: 20px;">+</span></summary>
-              <p style="margin: 0 0 var(--space-4); max-width: 62ch; font-size: 15px; line-height: 1.75; color: color-mix(in srgb, var(--color-text) 82%, transparent);">Yes. Tastings are held in our Berlin kitchen on Saturdays: six sponges, six fillings, and a long conversation about your day. The tasting fee is deducted from your cake if you order with us.</p>
-            </details>
-            <details style="border-top: 1px solid var(--color-divider);">
-              <summary style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 60px; padding: var(--space-3) 0; font-family: var(--font-heading); font-size: clamp(18px, 2.3vw, 21px);" style-hover="color: var(--color-accent-700);"><span>Can you bake vegan or gluten-free cakes?</span><span aria-hidden="true" style="flex: none; color: var(--color-accent); font-size: 20px;">+</span></summary>
-              <p style="margin: 0 0 var(--space-4); max-width: 62ch; font-size: 15px; line-height: 1.75; color: color-mix(in srgb, var(--color-text) 82%, transparent);">Yes — vegan sponges and buttercreams, and gluten-free sponges built on almond and rice flour. Our kitchen also handles wheat, egg, dairy and nuts, so we cannot promise a trace-free environment. Please tell us about severe allergies when you enquire and we will be straight with you about the risk.</p>
-            </details>
-            <details style="border-top: 1px solid var(--color-divider);">
-              <summary style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 60px; padding: var(--space-3) 0; font-family: var(--font-heading); font-size: clamp(18px, 2.3vw, 21px);" style-hover="color: var(--color-accent-700);"><span>What happens if I need to cancel?</span><span aria-hidden="true" style="flex: none; color: var(--color-accent); font-size: 20px;">+</span></summary>
-              <p style="margin: 0 0 var(--space-4); max-width: 62ch; font-size: 15px; line-height: 1.75; color: color-mix(in srgb, var(--color-text) 82%, transparent);">Cancel more than seven days before collection and your deposit is refunded in full. Inside seven days the deposit covers ingredients already bought and the kitchen time reserved for you. Dates can be moved once, free of charge, subject to availability.</p>
-            </details>
-            <details style="border-top: 1px solid var(--color-divider); border-bottom: 1px solid var(--color-divider);">
-              <summary style="display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 60px; padding: var(--space-3) 0; font-family: var(--font-heading); font-size: clamp(18px, 2.3vw, 21px);" style-hover="color: var(--color-accent-700);"><span>Do you deliver in Berlin?</span><span aria-hidden="true" style="flex: none; color: var(--color-accent); font-size: 20px;">+</span></summary>
-              <p style="margin: 0 0 var(--space-4); max-width: 62ch; font-size: 15px; line-height: 1.75; color: color-mix(in srgb, var(--color-text) 82%, transparent);">We deliver by cooled car across Berlin for a flat €25, or you can collect from the kitchen. Cakes above two tiers are always delivered and assembled by us — they travel badly in a taxi.</p>
-            </details>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact-en" aria-labelledby="contact-title-en" style="border-top: 1px solid var(--color-divider); max-width: 1240px; margin: 0 auto; padding: clamp(48px, 7vw, 96px) clamp(16px, 4vw, 40px);">
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: clamp(28px, 5vw, 64px); align-items: start;">
-          <div>
-            <p style="font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--color-accent-700); margin: 0 0 var(--space-2);">10 — Contact</p>
-            <h2 id="contact-title-en" style="font-family: var(--font-heading); font-weight: 400; font-size: clamp(30px, 5vw, 50px); line-height: 1.06; margin: 0 0 var(--space-4); letter-spacing: -0.02em;">Tell us about the occasion</h2>
-            <p style="font-size: 16px; line-height: 1.7; margin: 0 0 var(--space-6); max-width: 46ch; color: color-mix(in srgb, var(--color-text) 82%, transparent); text-wrap: pretty;">The fastest way to reach Neethu is WhatsApp — a photo of what you have in mind is worth a page of description. We answer Tuesday to Saturday, 10:00–18:00.</p>
-            <address style="font-style: normal; display: grid; gap: var(--space-3); margin: 0 0 var(--space-6);">
-              <div style="display: flex; align-items: baseline; gap: var(--space-3); padding-bottom: var(--space-3); border-bottom: 1px solid var(--color-divider);">
-                <span style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); min-width: 78px;">Phone</span>
-                <a href="tel:+49XXXXXXXXX" style="font-family: var(--font-heading); font-size: 20px; color: var(--color-text); text-decoration: none; font-feature-settings: 'tnum';" style-hover="color: var(--color-accent-700);">+49 XXX XXX XXXX</a>
-              </div>
-              <div style="display: flex; align-items: baseline; gap: var(--space-3); padding-bottom: var(--space-3); border-bottom: 1px solid var(--color-divider);">
-                <span style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); min-width: 78px;">Email</span>
-                <a href="mailto:hello@silverspoon.de" style="font-family: var(--font-heading); font-size: 20px; color: var(--color-text); text-decoration: none;" style-hover="color: var(--color-accent-700);">hello@silverspoon.de</a>
-              </div>
-              <div style="display: flex; align-items: baseline; gap: var(--space-3); padding-bottom: var(--space-3); border-bottom: 1px solid var(--color-divider);">
-                <span style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); min-width: 78px;">Kitchen</span>
-                <span style="font-family: var(--font-heading); font-size: 20px;">Berlin, Germany</span>
-              </div>
-              <div style="display: flex; align-items: baseline; gap: var(--space-3);">
-                <span style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: color-mix(in srgb, var(--color-text) 55%, transparent); min-width: 78px;">Hours</span>
-                <span style="font-size: 15px; font-feature-settings: 'tnum';">Tue–Sat, 10:00–18:00</span>
-              </div>
-            </address>
-            <a class="btn btn-primary" href="{{ waHref }}" target="_blank" rel="noopener" style="min-height: 52px; padding-inline: var(--space-6); font-size: 15px; transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: translateY(-2px);">WhatsApp Us</a>
-          </div>
-          <form onSubmit="{{ onSubmit }}" style="border: 1px solid var(--color-divider); border-radius: var(--radius-lg); padding: clamp(20px, 3vw, 32px); background: color-mix(in srgb, var(--color-neutral-100) 70%, transparent); box-shadow: var(--shadow-sm); display: grid; gap: var(--space-4);">
-            <h3 style="font-family: var(--font-heading); font-weight: 600; font-size: 20px; margin: 0;">Enquiry</h3>
-            <div class="field">
-              <label for="ss-name-en">Your name</label>
-              <input class="input" id="ss-name-en" name="name" type="text" autocomplete="name" required style="min-height: 46px;">
-            </div>
-            <div class="field">
-              <label for="ss-email-en">Email</label>
-              <input class="input" id="ss-email-en" name="email" type="email" autocomplete="email" required style="min-height: 46px;">
-            </div>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: var(--space-3);">
-              <div class="field">
-                <label for="ss-date-en">Date needed</label>
-                <input class="input" id="ss-date-en" name="date" type="date" style="min-height: 46px;">
-              </div>
-              <div class="field">
-                <label for="ss-servings-en">Portions</label>
-                <input class="input" id="ss-servings-en" name="servings" type="number" min="6" max="200" step="1" placeholder="12" style="min-height: 46px;">
-              </div>
-            </div>
-            <div class="field">
-              <label for="ss-detail-en">What are we baking?</label>
-              <textarea class="input" id="ss-detail-en" name="detail" rows="4" placeholder="Occasion, flavours, anything to avoid…"></textarea>
-            </div>
-            <p id="ss-note-en" style="margin: 0; font-size: 12px; line-height: 1.6; color: color-mix(in srgb, var(--color-text) 62%, transparent);">We reply within one working day. This demo form does not send anything yet — please use WhatsApp or email.</p>
-            <button class="btn btn-primary btn-block" type="submit" aria-describedby="ss-note-en" style="min-height: 52px; font-size: 15px; margin-top: 0; transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: translateY(-2px);">Send enquiry</button>
-            <p role="status" aria-live="polite" style="margin: 0; font-size: 13px; color: var(--color-accent-700); min-height: 18px;">{{ formStatus }}</p>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer style="background: var(--color-neutral-900); color: var(--color-neutral-200);">
-      <div style="max-width: 1240px; margin: 0 auto; padding: clamp(44px, 6vw, 80px) clamp(16px, 4vw, 40px) var(--space-6);">
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: clamp(28px, 4vw, 56px);">
-          <div>
-            <p style="font-family: var(--font-heading); font-size: 26px; margin: 0 0 var(--space-2); color: var(--color-neutral-100);">Silver Spoon</p>
-            <p style="margin: 0 0 var(--space-3); font-size: 13px; line-height: 1.7; color: var(--color-neutral-400);">Silver Spoon UG<br>Berlin, Germany<br>Pastry chef: Neethu</p>
-            <p style="margin: 0; font-size: 13px; line-height: 1.8; color: var(--color-neutral-400);"><a href="mailto:hello@silverspoon.de" style="color: var(--color-accent-300); text-decoration: none;" style-hover="color: var(--color-accent-200);">hello@silverspoon.de</a><br><span style="font-feature-settings: 'tnum';">+49 XXX XXX XXXX</span></p>
-          </div>
-          <nav aria-label="Footer">
-            <h2 style="font-family: var(--font-body); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-neutral-500); margin: 0 0 var(--space-3); font-weight: 400;">Explore</h2>
-            <ul style="list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2);">
-              <li><a href="#home-en" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Home</a></li>
-              <li><a href="#cakes-en" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Cakes</a></li>
-              <li><a href="#baker-en" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">The Baker</a></li>
-              <li><a href="#gallery-en" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Gallery</a></li>
-              <li><a href="#faq-en" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">FAQ</a></li>
-              <li><a href="#contact-en" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Contact</a></li>
-            </ul>
-          </nav>
-          <div>
-            <h2 style="font-family: var(--font-body); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-neutral-500); margin: 0 0 var(--space-3); font-weight: 400;">Legal (Rechtliches)</h2>
-            <ul style="list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2);">
-              <li><a href="#datenschutz" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Privacy Policy (Datenschutz)</a></li>
-              <li><a href="#impressum" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Impressum</a></li>
-              <li><a href="#agb" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Terms &amp; Conditions (AGB)</a></li>
-              <li><a href="#widerruf" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Right of withdrawal (Widerruf)</a></li>
-              <li><button type="button" onClick="{{ noop }}" style="font: inherit; font-size: 14px; color: var(--color-neutral-200); background: transparent; border: 0; padding: 0; cursor: pointer; text-align: left; min-height: 24px;" style-hover="color: var(--color-accent-300);">Cookie Settings</button></li>
-            </ul>
-          </div>
-          <div>
-            <h2 style="font-family: var(--font-body); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-neutral-500); margin: 0 0 var(--space-3); font-weight: 400;">Follow</h2>
-            <ul style="list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2);">
-              <li><a href="https://www.instagram.com/silverspoonug?igsi=eXpqdWJ4d3A5NHJr" target="_blank" rel="noopener" aria-label="Silver Spoon on Instagram" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Instagram</a></li>
-              <li><a href="#pinterest" aria-label="Silver Spoon on Pinterest (placeholder link)" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Pinterest</a></li>
-              <li><a href="#facebook" aria-label="Silver Spoon on Facebook (placeholder link)" style="font-size: 14px; color: var(--color-neutral-200); text-decoration: none;" style-hover="color: var(--color-accent-300);">Facebook</a></li>
-              <li><a href="{{ waHref }}" target="_blank" rel="noopener" style="font-size: 14px; color: var(--color-accent-300); text-decoration: none;" style-hover="color: var(--color-accent-200);">WhatsApp</a></li>
-            </ul>
-          </div>
-        </div>
-        <hr style="height: 1px; border: 0; margin: clamp(28px, 4vw, 48px) 0 var(--space-4); background: color-mix(in srgb, var(--color-neutral-100) 18%, transparent);">
-        <div style="display: flex; flex-wrap: wrap; gap: var(--space-3) var(--space-6); justify-content: space-between; font-size: 12px; color: var(--color-neutral-500);">
-          <p style="margin: 0; font-feature-settings: 'tnum';">© 2026 Silver Spoon UG. All rights reserved.</p>
-          <p style="margin: 0;">Baked in Berlin by Neethu · Registergericht Berlin (Charlottenburg), HRB XXXXXX B</p>
-        </div>
       </div>
-    </footer>
     </div>
-  </sc-if>
+  </section>
 
-  <a href="{{ waHref }}" target="_blank" rel="noopener" aria-label="{{ waLabel }}" style="position: fixed; right: clamp(14px, 3vw, 28px); bottom: clamp(14px, 3vw, 28px); z-index: 70; display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 20px; border-radius: 999px; text-decoration: none; font-family: var(--font-heading); font-size: 15px; color: var(--color-neutral-100); background: color-mix(in srgb, var(--color-neutral-900) 92%, transparent); border: 1px solid var(--color-accent); box-shadow: var(--shadow-lg); backdrop-filter: blur(6px); transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);" style-hover="transform: translateY(-3px);" style-active="transform: translateY(0) scale(0.97);">
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color: var(--color-accent-300);"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8z"></path></svg>
-    <span>WhatsApp</span>
-  </a>
-</div>
+  <!-- Testimonials -->
+  <section id="testimonials" class="band">
+    <div class="wrap">
+      <span class="kicker">Sweet words</span>
+      <h2 class="section-title">What our customers say</h2>
+      <div class="quotes">
+        <article class="quote">
+          <span class="mark">“</span>
+          <p>We ordered a Vancho cake for our daughter's birthday and it was the star of the party. Beautifully decorated to her theme, incredibly moist and not too sweet — the plate was empty before the candles cooled down.</p>
+          <footer><strong>Mrs Anusha &amp; Mr Abilaash</strong> · Neuenhagen<div class="stars">★★★★★</div></footer>
+        </article>
+        <article class="quote">
+          <span class="mark">“</span>
+          <p>The double-tier customised cake for our anniversary was delivered right on time and looked even better than the pictures we sent. The Death by Chocolate base was pure heaven — our guests are still talking about it.</p>
+          <footer><strong>Mr Abhishek &amp; Mrs Krishna</strong> · Kaulsdorf<div class="stars">★★★★★</div></footer>
+        </article>
+        <article class="quote">
+          <span class="mark">“</span>
+          <p>I crossed half of Berlin to pick up brownies and a Kerala tea cake — and I'd do it again tomorrow. Everything tastes freshly baked because it truly is. Honest prices, honest baking.</p>
+          <footer><strong>Augustin Müller</strong> · Mitte, Berlin<div class="stars">★★★★★</div></footer>
+        </article>
+      </div>
+    </div>
+  </section>
 
-</x-dc>
-<script type="text/x-dc" data-dc-script data-props="{&quot;whatsappNumber&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;+4915209613663&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Contact&quot;}}">
-class Component extends DCLogic {
-  state = { isDesktop: true, menuOpen: false, formStatus: "", lang: "de" };
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <span class="kicker">Good to know</span>
+      <h2 class="section-title">Frequently asked questions</h2>
+      <div class="faq">
+        <details>
+          <summary>How far in advance should I order?</summary>
+          <p>Every cake is baked fresh on order, so a few days' notice is ideal for simple cakes. For themed decorations and double-tier cakes, one to two weeks gives us time to make it perfect. Short on time? Message us anyway — we'll tell you honestly what's possible.</p>
+        </details>
+        <details>
+          <summary>What do the cakes cost?</summary>
+          <p>Prices are transparent: simple birthday cakes start at €90, big double-tier customised cakes go up to €200, and everything else sits in between. Brownies are €3 per piece. You'll always know the price before we start baking.</p>
+        </details>
+        <details>
+          <summary>Do you deliver?</summary>
+          <p>Delivery is available only for double-tier cakes. All other cakes are pickup only — but we're sure you won't regret coming: the moment you take the first bite, you'll know it was worth the trip.</p>
+        </details>
+        <details>
+          <summary>Can you make my theme?</summary>
+          <p>Yes! The designs you see on this page are just examples — whatever theme you have in mind, we will make it, on any flavour you prefer. When ordering, just send a sample picture of the cake you'd like or describe your idea.</p>
+        </details>
+        <details>
+          <summary>Do you have vegan options?</summary>
+          <p>Not all our cakes are vegan, so please specify when ordering if you need a vegan cake and we'll bake yours accordingly.</p>
+        </details>
+        <details>
+          <summary>Can I order brownies in bulk?</summary>
+          <p>Absolutely — brownies are €3 per piece, and for bulk orders (parties, offices, events) the price can be discussed over phone. Just give us a call or message us on WhatsApp.</p>
+        </details>
+      </div>
+    </div>
+  </section>
 
-  componentDidMount() {
-    this.measure();
-    this.onResize = () => this.measure();
-    window.addEventListener("resize", this.onResize, { passive: true });
-    let saved = null;
-    try { saved = window.localStorage.getItem("ss-lang"); } catch (e) { saved = null; }
-    if (saved === "en" || saved === "de") this.setLang(saved, false);
-    else document.documentElement.lang = "de";
-  }
+  <!-- Contact -->
+  <section id="contact" class="contact band">
+    <div class="wrap">
+      <span class="kicker">Get in touch</span>
+      <h2 class="section-title">Tell us about the occasion</h2>
+      <p class="section-sub" style="margin-left: auto; margin-right: auto;">Send us your date, the occasion, your favourite flavour and your theme — with a sample picture of the cake you need, or just the idea you have. We'll take it from there. And feel free to contact us for more details about any special cakes and pastries.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/4915209613663?text=Hi%20Silver%20Spoon!%20I%27d%20like%20to%20order%20a%20cake.%20Here%20are%20the%20details%20of%20my%20occasion%3A" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15L2 22l5.16-1.35A10 10 0 1 0 12 2Zm5.46 14.2c-.23.65-1.35 1.24-1.86 1.28-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.9-4.66-4.08-.13-.18-1.1-1.47-1.1-2.8 0-1.34.7-2 .95-2.27.25-.27.54-.34.72-.34.18 0 .36 0 .52.01.17.01.39-.06.61.47.23.54.77 1.87.84 2 .07.14.11.3.02.48-.09.18-.14.29-.27.45-.14.16-.29.36-.41.48-.14.13-.28.28-.12.55.16.27.71 1.17 1.52 1.9 1.05.93 1.93 1.22 2.2 1.36.27.13.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.75 1.85.88.27.14.45.2.52.32.07.11.07.65-.16 1.3Z"/></svg>
+          Order through WhatsApp
+        </a>
+        <a class="btn btn-mail" href="mailto:order@silverspoonberlin.de?subject=Cake%20order&body=Hi%20Silver%20Spoon%2C%0A%0ADate%20of%20the%20occasion%3A%20%0AOccasion%3A%20%0AFlavour%3A%20%0ATheme%20or%20idea%20(attach%20a%20sample%20picture%20if%20you%20have%20one)%3A%20%0A%0AThank%20you!">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg>
+          Order through Email
+        </a>
+      </div>
+      <p class="contact-meta">
+        Phone / WhatsApp: <a href="tel:+4915209613663">+49 152 09613663</a> ·
+        Email: <a href="mailto:order@silverspoonberlin.de">order@silverspoonberlin.de</a> ·
+        Instagram: <a href="https://www.instagram.com/silverspoonug?igsi=eXpqdWJ4d3A5NHJr" target="_blank" rel="noopener">@silverspoonug</a><br>
+        Berlin, Germany · Pickup for all cakes — delivery for double-tier cakes only.
+      </p>
+    </div>
+  </section>
+</main>
 
-  componentWillUnmount() {
-    window.removeEventListener("resize", this.onResize);
-  }
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 Silver Spoon · Berlin</span>
+    <span>Freshly baked, made to order, with love.</span>
+  </div>
+</footer>
 
-  measure() {
-    const d = window.innerWidth >= 900;
-    if (d !== this.state.isDesktop) this.setState({ isDesktop: d, menuOpen: d ? false : this.state.menuOpen });
-  }
+<a class="wa-float" href="https://wa.me/4915209613663?text=Hi%20Silver%20Spoon!%20I%27d%20like%20to%20order%20a%20cake." target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15L2 22l5.16-1.35A10 10 0 1 0 12 2Zm5.46 14.2c-.23.65-1.35 1.24-1.86 1.28-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.9-4.66-4.08-.13-.18-1.1-1.47-1.1-2.8 0-1.34.7-2 .95-2.27.25-.27.54-.34.72-.34.18 0 .36 0 .52.01.17.01.39-.06.61.47.23.54.77 1.87.84 2 .07.14.11.3.02.48-.09.18-.14.29-.27.45-.14.16-.29.36-.41.48-.14.13-.28.28-.12.55.16.27.71 1.17 1.52 1.9 1.05.93 1.93 1.22 2.2 1.36.27.13.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.75 1.85.88.27.14.45.2.52.32.07.11.07.65-.16 1.3Z"/></svg>
+</a>
 
-  setLang(lang, persist) {
-    document.documentElement.lang = lang;
-    if (persist !== false) { try { window.localStorage.setItem("ss-lang", lang); } catch (e) {} }
-    this.setState({ lang: lang, menuOpen: false, formStatus: "" });
-  }
-
-  renderVals() {
-    const num = String(this.props.whatsappNumber || "XXXXXXXXXXXX").replace(/[^0-9X]/g, "");
-    const de = this.state.lang !== "en";
-    const msg = encodeURIComponent(de
-      ? "Hallo Silver Spoon! Ich möchte eine Torte bestellen."
-      : "Hello Silver Spoon! I would like to order a cake.");
-    const open = this.state.menuOpen;
-    const bar = "display:block;height:1.5px;width:100%;background:var(--color-text);border-radius:2px;transition:transform .3s cubic-bezier(.22,1,.36,1),opacity .2s;";
-    const langBase = "font-family:var(--font-heading);font-size:13px;letter-spacing:.06em;min-width:44px;min-height:40px;padding:0 10px;background:transparent;border:0;cursor:pointer;";
-    const langOn = langBase + "color:var(--color-accent-700);box-shadow:inset 0 0 0 1px var(--color-accent);";
-    const langOff = langBase + "color:color-mix(in srgb, var(--color-text) 65%, transparent);";
-    return {
-      waHref: "https://wa.me/" + num + "?text=" + msg,
-      waLabel: de ? "Silver Spoon auf WhatsApp schreiben (+49 152 09613663)" : "Message Silver Spoon on WhatsApp (+49 152 09613663)",
-      isDe: de,
-      isEn: !de,
-      isDesktop: this.state.isDesktop,
-      isMobile: !this.state.isDesktop,
-      menuOpen: open,
-      menuExpanded: open ? "true" : "false",
-      menuLabelDe: open ? "Menü schließen" : "Menü öffnen",
-      menuLabelEn: open ? "Close menu" : "Open menu",
-      langDeStyle: de ? langOn : langOff,
-      langEnStyle: de ? langOff : langOn,
-      formStatus: this.state.formStatus,
-      bar1: bar + (open ? "transform:translateY(6.5px) rotate(45deg);" : ""),
-      bar2: bar + (open ? "opacity:0;transform:scaleX(.4);" : ""),
-      bar3: bar + (open ? "transform:translateY(-6.5px) rotate(-45deg);" : ""),
-      setDe: () => this.setLang("de", true),
-      setEn: () => this.setLang("en", true),
-      toggleMenu: () => this.setState((s) => ({ menuOpen: !s.menuOpen })),
-      closeMenu: () => this.setState({ menuOpen: false }),
-      noop: () => {},
-      onSubmit: (e) => {
-        e.preventDefault();
-        this.setState({ formStatus: de
-          ? "Vielen Dank — dieses Formular ist noch nicht angeschlossen. Bitte senden Sie die Angaben per WhatsApp oder an hello@silverspoon.de."
-          : "Thank you — this demo form is not connected yet. Please send the same details on WhatsApp or to hello@silverspoon.de." });
-      }
-    };
-  }
-}
-
-</script>
 </body>
 </html>
